@@ -11,8 +11,8 @@ lineHeight:{
   'md':'150%',
   'lg':'166%',
 },
-fontFamily:{
-  '32':'32px'
+fontSize:{
+  '3xxl':'32px'
 },
 
 colors:{
