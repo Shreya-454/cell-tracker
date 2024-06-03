@@ -1,10 +1,12 @@
 import React from 'react'
-import Head from '../components/homepage/Head'
+import Head from '../components/Head'
+import Companies from '../components/Companies'
 
 const LandingPage = () => {
   return (
     <div>
       <Head/>
+      <Companies/>
     </div>
   )
 }

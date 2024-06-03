@@ -12,7 +12,8 @@ lineHeight:{
   'lg':'166%',
 },
 fontSize:{
-  '3xxl':'32px'
+  '3xxl':'32px',
+  '6xxl':'64px',
 },
 
 colors:{
@@ -20,8 +21,11 @@ colors:{
   lightBlack:'#4D4D4C',
   lightBlue:'#DDF9FF',
   skyBlue:'#00B5D8'
-}
-
+},
+container: {
+  center: true,
+  padding: "1rem",
+},
     },
   },
   plugins: [],
