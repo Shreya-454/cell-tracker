@@ -90,7 +90,7 @@ Create your <span className=' font-extrabold'>account</span>
 <input type="text" id='address' placeholder='Address Line 1'  className=' max-sm:!pl-5 text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base placeholder:text-sm ' />
     </div>
     <p className=' text-grey md:text-base text-sm font-normal md:mb-5 mb-[18px]'>Our enter address manually</p>
-    <label htmlFor="email" className=' text-darkBlue text- '>Email Address</label>
+    <label htmlFor="email" className=' text-darkBlue md:text-base text-smg  '>Email Address</label>
     <div className=' bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]'>
 <div className=' bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center '>
    <EmailIcon/>
