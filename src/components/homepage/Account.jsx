@@ -59,7 +59,7 @@ Create your <span className=' font-extrabold'>account</span>
 </div>
 <div className="lg:w-7/12 flex justify-center w-full px-3">
 <div className='shadow-common-shadow '>
-    <div className="lg:w-[679px] w-full shadow-[0px_0px_11.3px_0px_#00B5D81A]  border border-solid border-[#03045E1A] rounded-xl overflow-hidden
+    <div className="xl:w-[679px] w-full shadow-[0px_0px_11.3px_0px_#00B5D81A]  border border-solid border-[#03045E1A] rounded-xl overflow-hidden
     ">
         <div className="flex justify-between items-center px-5 py-[15px] bg-darkBlue">
             <div className=' flex  gap-3 items-center'><Circle/>
