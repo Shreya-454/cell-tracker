@@ -6,7 +6,7 @@ const Head = () => {
   return (
     <div className='bg-[url(./assets/images/Herobg.webp)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col relative'>
       <div className="flex flex-grow items-center">
-<div className="container max-w-[1164px] ">
+<div className="container max-w-[1164px] sm:px-3 px-6">
 <div className="flex flex-row flex-wrap -mx-3 items-center">
 <div className="md:w-1/2 w-full px-3">
 <h1 className=' text-white lg:text-6xxl md:text-5xl text-3xxl leading-full font-light max-w-[520px] mb-2'><span className=' font-extrabold'>Find the location</span> of any phone by its number</h1>
@@ -16,15 +16,15 @@ const Head = () => {
       </div>
 </div>
 <div className="md:w-1/2 w-full px-3 relative">
-  <img src={mobile} alt="mobile"  className=' -translate-x-16'/>
-    <div className=' lg:max-w-[280.07px] sm:max-w-[231px] max-w-[164px] p-2 md:p-[18px] bg-[#ffffff] absolute w-full top-[44%] right-[1%] shadow-[0px_0px_24.6px_0px_#00000059] md:rounded-tl-xl rounded-tl-lg md:rounded-br-xl rounded-br-lg
+  <img src={mobile} alt="mobile"  className=' sm:-translate-x-16  -translate-x-9'/>
+    <div className=' lg:max-w-[280.07px] sm:max-w-[231px] max-w-[164px] p-2 md:p-[18px] bg-[#ffffff] absolute w-full md:top-[44%] right-[5%] top-[52%]  md:right-[1%] shadow-[0px_0px_24.6px_0px_#00000059] md:rounded-tl-xl rounded-tl-lg md:rounded-br-xl rounded-br-lg
 '>
 <div className="flex justify-between items-center">
 <p className=' text-skyBlue lg:text-2xl text-xl leading-lg font-bold'>Need help?</p>
 <Help/>
 </div>
-<p className=' text-darkBlue md:text-base text-sm font-normal max-w-[198px] mb-[14px]'>Get help with technical, account and billing enquiries.</p>
-<button className=' w-full bg-darkBlue text-white py-4 rounded lg:text-base text-sm '>
+<p className=' text-darkBlue md:text-base text-sm font-normal max-w-[198px] sm:mb-[14px] mb-3'>Get help with technical, account and billing enquiries.</p>
+<button className=' w-full bg-darkBlue text-white md:py-4 py-2 rounded lg:text-base text-sm '>
 Customer Support
 </button>
   </div>
