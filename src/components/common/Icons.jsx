@@ -108,7 +108,7 @@ export const Private = () => {
 }
 export const Circle = () => {
   return (
-    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" className="max-sm:w-5 max-sm:h-5">
     <rect width="30" height="30" rx="15" fill="#00B5D8"/>
     <circle cx="15" cy="15" r="11" fill="white"/>
     </svg>

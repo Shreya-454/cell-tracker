@@ -9,8 +9,8 @@ const Head = () => {
 <div className="container max-w-[1164px] sm:px-3 px-6">
 <div className="flex flex-row flex-wrap -mx-3 items-center">
 <div className="md:w-1/2 w-full px-3">
-<h1 className=' text-white lg:text-6xxl md:text-5xl text-3xxl leading-full font-light max-w-[520px] mb-2'><span className=' font-extrabold'>Find the location</span> of any phone by its number</h1>
-<p className=' text-white md:text-base text-sm font-normal mb-6'>Add phones to your account & track them when neededAdd phones to your account & track them when needed</p>
+<h1 className=' text-white lg:text-6xxl md:text-5xl text-3xxl leading-full font-light mx-auto md:mx-0 max-w-[520px] mb-2 text-center md:text-start'><span className=' font-extrabold'>Find the location</span> of any phone by its number</h1>
+<p className=' text-white md:text-base text-sm font-normal mb-6 text-center md:text-start'>Add phones to your account & track them when neededAdd phones to your account & track them when needed</p>
 <div className='flex'>
 
       </div>
