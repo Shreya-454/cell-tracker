@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .content {
+        @apply text-sm sm:text-base font-normal
+    }
+
+    .menu-icon {
+        @apply w-[22px] h-[3px] flex z-40 duration-300 rounded-full bg-white relative after:absolute before:absolute  sm:hidden after:duration-100 before:duration-100
+    }
+
+    .navbar-toggle {
+        @apply max-sm:bg-white max-sm:flex-col max-sm:items-center max-sm:fixed max-sm:left-0 max-sm:h-full max-sm:w-full max-sm:z-30
+    }
+}
