@@ -1,7 +1,7 @@
-import instant from "../../assets/images/svg/instant.svg";
-import andriod from "../../assets/images/svg/android.svg";
-import simple from "../../assets/images/svg/simple.svg";
-import keep from "../../assets/images/svg/keep.svg";
+import instant from "../../assets/svg/instant.svg";
+import andriod from "../../assets/svg/android.svg";
+import simple from "../../assets/svg/simple.svg";
+import keep from "../../assets/svg/keep.svg";
 
 
 export const AdvantageData = [

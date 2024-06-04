@@ -1,5 +1,5 @@
 import React from 'react'
-import { Arrows, Circle, Location, Money, Private, Protect, Track } from '../common/Icons'
+import { Arrows, Card, Circle, EmailIcon, Home, Location, Money, Private, Protect, Track } from '../common/Icons'
 import visa from '../../assets/svg/visa.svg'
 import mastercard from '../../assets/svg/Mastercard.svg'
 
@@ -69,6 +69,47 @@ Create your <span className=' font-extrabold'>account</span>
 <p className=' text-white'>mastercard</p>
                 </div>
             </div>
+        </div>
+        <div className=' px-6 pt-[30px] pb-9'>
+<form>
+    <label htmlFor="address" className=' text-darkBlue text-base'>
+    Your Address
+    </label>
+    <div className=' bg-[#FAFAFA]  mt-2 border  border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-1'>
+<div className=' bg-[#EDEDED] w-12 h-full flex justify-center items-center '>
+    <Home/>
+</div>
+<input type="text" id='address' placeholder='Address Line 1'  className=' text-darkBlue w-full p-[14px] focus:outline-none placeholder:text-darkBlue text-base placeholder:text-base ' />
+    </div>
+    <p className=' text-grey text-base font-normal mb-5'>Our enter address manually</p>
+    <label htmlFor="email" className=' text-darkBlue text-base '>Email Address</label>
+    <div className=' bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-5'>
+<div className=' bg-[#EDEDED] w-12 h-full flex justify-center items-center '>
+   <EmailIcon/>
+</div>
+<input type="text" id='email' placeholder='Email Address'  className=' text-darkBlue w-full p-[14px] focus:outline-none placeholder:text-darkBlue text-base placeholder:text-base ' />
+    </div>
+    <label htmlFor="card" className=' text-darkBlue text-base '>Card Number (Visa or Mastercard)</label>
+    <div className=' bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-5'>
+<div className=' bg-[#EDEDED] w-12 h-full flex justify-center items-center '>
+<Card/>
+</div>
+<input type="text" id='card' placeholder='Valid Card Number'  className=' text-darkBlue w-full p-[14px] focus:outline-none placeholder:text-darkBlue text-base placeholder:text-base ' />
+    </div>
+    <div className=' flex w-full'>
+        <div className="w-1/2">
+            <label htmlFor="date" className=' text-darkBlue text-base '>
+            Expiry Date
+            </label> <div className=' bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-5'>
+<div className=' bg-[#EDEDED] max-w-[48px] w-full h-full flex justify-center items-center '>
+<Card/>
+</div>
+<input type="text" id='card' placeholder='Valid Card Number'  className=' text-darkBlue w-full p-[14px] focus:outline-none placeholder:text-darkBlue text-base placeholder:text-base ' />
+    </div>
+
+        </div>
+    </div>
+</form>
         </div>
     </div>
 </div>
