@@ -1,5 +1,5 @@
-import mobile from '../assets/images/headmobile.webp'
-import { Help } from './common/Icons'
+import mobile from '../../assets/images/headmobile.webp'
+import { Help } from '../common/Icons'
 
 const Head = () => {
   return (

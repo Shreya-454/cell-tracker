@@ -1,12 +1,15 @@
 import React from 'react'
-import Head from '../components/Head'
-import Companies from '../components/Companies'
+import Head from '../components/homepage/Head'
+import Companies from '../components/homepage/Companies'
+import Account from '../components/homepage/Account'
+
 
 const LandingPage = () => {
   return (
     <div>
       <Head/>
-      <Companies/>
+   <Companies/>
+   <Account/>
     </div>
   )
 }
