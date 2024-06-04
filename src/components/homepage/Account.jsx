@@ -2,10 +2,14 @@ import React from 'react'
 import { Arrows, Calender, Card, Circle, EmailIcon, Home, Location, Lock, Money, Private, Protect, Track } from '../common/Icons'
 import visa from '../../assets/svg/visa.svg'
 import mastercard from '../../assets/svg/Mastercard.svg'
+import accountVector1 from '../../assets/svg/accountVector1.svg'
+import accountVector2 from '../../assets/svg/accountVector2.svg'
 
 const Account = () => {
   return (
-    <div className=' pt-[98px]'>
+    <div className=' pt-[98px] relative z-[1]'>
+        <img src={accountVector1} alt="vector" className=' absolute left-0 top-[15%] z-[-1]' />
+        <img src={accountVector2} alt="vector" className=' absolute right-0 bottom-[15%] z-[-1]' />
       <div className="container max-w-[1164px]">
 <h2 className=' lg:text-5xl md:text-3xl text-3xxl text-darkBlue font-light leading-full capitalize text-center mb-2'>
 Create your <span className=' font-extrabold'>account</span>
