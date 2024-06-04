@@ -58,30 +58,30 @@ Create your <span className=' font-extrabold'>account</span>
 </div>
 </div>
 <div className="lg:w-7/12 flex justify-center w-full px-3">
-<div className='shadow-common-shadow lg:-translate-x-7'>
-    <div className="max-w-[679px] w-full shadow-[0px_0px_11.3px_0px_#00B5D81A]  border border-solid border-[#03045E1A] rounded-xl overflow-hidden
+<div className='shadow-common-shadow '>
+    <div className="lg:w-[679px] w-full shadow-[0px_0px_11.3px_0px_#00B5D81A]  border border-solid border-[#03045E1A] rounded-xl overflow-hidden
     ">
         <div className="flex justify-between items-center px-5 py-[15px] bg-darkBlue">
             <div className=' flex  gap-3 items-center'><Circle/>
-            <p className=' text-white text-3xxl leading-sm'>Debit/Credit Card</p></div>
+            <p className=' text-white md:text-3xxl text-2xl leading-sm'>Debit/Credit Card</p></div>
             <div className="flex gap-[34px] items-center">
                 <img src={visa} alt="visa" />
                 <div className='flex flex-col items-center'>
 <img src={mastercard} alt="card" />
-<p className=' text-white'>mastercard</p>
+<p className=' text-white text-xs leading-sm'>mastercard</p>
                 </div>
             </div>
         </div>
         <div className=' px-6 pt-[30px] pb-9'>
 <form>
-    <label htmlFor="address" className=' text-darkBlue text-base'>
+    <label htmlFor="address" className=' text-darkBlue md:text-base text-sm'>
     Your Address
     </label>
     <div className=' bg-[#FAFAFA]  mt-2 border  border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-1'>
 <div className=' bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center '>
     <Home/>
 </div>
-<input type="text" id='address' placeholder='Address Line 1'  className=' text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue text-base placeholder:text-base ' />
+<input type="text" id='address' placeholder='Address Line 1'  className=' text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base placeholder:text-sm ' />
     </div>
     <p className=' text-grey md:text-base text-sm font-normal mb-5'>Our enter address manually</p>
     <label htmlFor="email" className=' text-darkBlue text- '>Email Address</label>
@@ -89,14 +89,14 @@ Create your <span className=' font-extrabold'>account</span>
 <div className=' bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center '>
    <EmailIcon/>
 </div>
-<input type="text" id='email' placeholder='Email Address'  className=' text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue text-base placeholder:text-base ' />
+<input type="text" id='email' placeholder='Email Address'  className=' text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base placeholder:text-sm ' />
     </div>
     <label htmlFor="card" className=' text-darkBlue md:text-base text-sm '>Card Number (Visa or Mastercard)</label>
     <div className=' bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-5'>
 <div className=' bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center '>
 <Card/>
 </div>
-<input type="text" id='card' placeholder='Valid Card Number'  className=' text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue text-base md:placeholder:text-base placeholder:text-sm ' />
+<input type="text" id='card' placeholder='Valid Card Number'  className=' text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base placeholder:text-sm ' />
     </div>
     <div className=' flex w-full gap-[17px] mb-[46px]'>
         <div className="w-1/2">
