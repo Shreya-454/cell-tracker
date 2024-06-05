@@ -3,15 +3,23 @@
 @tailwind utilities;
 
 @layer components {
-    .content {
-        @apply text-sm sm:text-base font-normal
-    }
+  .navlinkhover {
+    @apply after:absolute relative hover:after:left-[0] after:bottom-0 after:w-0 after:left-[50%] after:rounded-[10px] after:h-[2px] after:bg-white hover:after:w-full after:duration-300;
+  }
 
-    .menu-icon {
-        @apply w-[22px] h-[3px] flex z-40 duration-300 rounded-full bg-white relative after:absolute before:absolute  md:hidden after:duration-100 before:duration-100
-    }
+  .footerlinkhover {
+    @apply after:absolute relative hover:after:left-[0] after:bottom-0 after:w-0 after:left-[50%] after:rounded-[10px] after:h-[2px] after:bg-darkBlue hover:text-darkBlue hover:after:w-full after:duration-300;
+  }
 
-    .navbar-toggle {
-        @apply max-md:bg-white max-md:flex-col max-md:items-center max-md:fixed max-md:left-0 max-md:h-full max-md:w-full max-md:z-30
-    }
+  .content {
+    @apply text-sm sm:text-base font-normal;
+  }
+
+  .menu-icon {
+    @apply w-[22px] h-[3px] flex z-40 duration-300 rounded-full bg-white relative after:absolute before:absolute  md:hidden after:duration-100 before:duration-100;
+  }
+
+  .navbar-toggle {
+    @apply max-md:bg-white max-md:flex-col max-md:items-center max-md:fixed max-md:left-0 max-md:h-full max-md:w-full max-md:z-30;
+  }
 }
