@@ -193,7 +193,6 @@ export const Lock = () => {
   )
 }
 
-
 export const NavLogo=(props)=> {
   return (
     <svg className={`${props.className} duration-300`}

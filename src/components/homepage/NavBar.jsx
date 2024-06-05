@@ -25,14 +25,14 @@ const NavBar = () => {
           <a
             onClick={() => setnavShow(!navShow)}
             href="http://"
-            className="content leading-[26.59px] text-black md:text-white flex items-center gap-[6px]"
+            className="content leading-[26.59px] navlinkhover text-black md:text-white flex items-center gap-[6px]"
           >
             <QuickHelpIcon /> Quick Help
           </a>
           <a
             onClick={() => setnavShow(!navShow)}
             href="http://"
-            className="content leading-[26.59px] text-black md:text-white flex items-center gap-[6px] max-md:pt-5 md:ml-6 md:mr-[14px]"
+            className="content leading-[26.59px] navlinkhover text-black md:text-white flex items-center gap-[6px] max-md:pt-5 md:ml-6 md:mr-[14px]"
           >
             Log in
           </a>

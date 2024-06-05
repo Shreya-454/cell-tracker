@@ -21,11 +21,11 @@ const Advantages = () => {
               className="xl:w-1/4  sm:w-1/2 w-full xl:mt-2 xl:mb-0 !mb-[18px]  px-3"
             >
               <div
-                className={`border border-lightGrey group h-full  max-sm:h-[184px] shadow-common-shadow duration-300 hover:border-darkBlue rounded-xl ${
+                className={`border border-lightGrey group xl:h-[253px] h-full xl:max-w-[271px]  max-sm:h-[184px] shadow-common-shadow duration-300 hover:border-darkBlue rounded-xl ${
                   i % 2 !== 0 ? "sm:mt-[23px]" : ""
                 }`}
               >
-                <div className="p-5  h-full hover:border-transparent duration-300 w-full rounded-[11.20px] border border-lightGrey ">
+                <div className="p-5  h-full hover:border-transparent xl:h-[253px] xl:max-w-[271px] duration-300 w-full rounded-[11.20px] border border-lightGrey ">
                   <img src={obj.icons} alt="instant" />
                   <h3 className="mt-1 text-darkBlue font-normal leading-sm sm:text-2xl text-xl">
                     {obj.title}
