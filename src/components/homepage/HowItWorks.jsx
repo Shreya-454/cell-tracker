@@ -5,7 +5,7 @@ import { WorkData } from "../common/Helper";
 import Buttons from "../common/Buttons";
 const HowItWorks = () => {
   return (
-    <div className=" pt-14 pb-16 relative z-1">
+    <div className=" pt-14 pb-16 relative z-[1]">
       <div className="container max-w-[1140px] mx-auto sm:px-3 px-6">
         <h2 className="font-light text-center text-darkBlue lg:text-5xl md:text-4xl sm:text-3xl text-2xxl leading-full">
           How it <span className="font-extrabold">works</span>

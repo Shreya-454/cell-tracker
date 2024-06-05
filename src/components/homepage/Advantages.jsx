@@ -5,7 +5,7 @@ import { AdvantageData } from "../common/Helper";
 
 const Advantages = () => {
   return (
-    <div className="pt-11 pb-14 relative z-1">
+    <div className="pt-11 pb-14 relative z-[1]">
       <div className="container max-w-[1140px] mx-auto sm:px-3 px-6">
         <h2 className="font-light text-center text-darkBlue lg:text-5xl md:text-4xl sm:text-3xl text-2xxl leading-full">
           Advantages of <span className="font-extrabold">Celltracker</span>

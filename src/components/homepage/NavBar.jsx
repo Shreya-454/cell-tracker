@@ -15,7 +15,7 @@ const NavBar = () => {
     <nav>
       <div className="container max-w-[1188px] pt-8 md:py-[11px] flex items-center justify-between">
         <a className="relative z-50 " href="http://">
-          <NavLogo className={`${navShow ? "!fill-darkBlue" : "fill-white"}`} />
+          <NavLogo className={`${navShow ? "!fill-darkBlue" : "!fill-white"}`} />
         </a>
         <div
           className={`flex items-center ${
