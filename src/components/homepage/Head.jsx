@@ -6,22 +6,22 @@ import Buttons from '../common/Buttons';
 
 const Head = () => {
   return (
-    <div className='bg-[url(./assets/images/Herobg.webp)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col relative z-[1]'>
+    <div className='bg-[url(./assets/images/Herobg.webp)] bg-cover bg-center bg-no-repeat sm:min-h-screen flex flex-col relative z-[1]'>
       <NavBar/>
       <div className="flex sm:flex-grow items-center">
-<div className="container max-w-[1164px] sm:px-3 px-6 sm:pt-[63px] py-[56px] lg:pt-0">
-<div className="flex flex-row flex-wrap -mx-3 items-center">
-<div className="md:w-1/2 w-full px-3 md:mb-0 sm:mb-10 mb-[30.5px]">
-<h1 className=' text-white lg:text-6xxl md:text-5xl text-3xxl leading-full font-light mx-auto md:mx-0 max-w-[326px]  sm:max-w-[520px] mb-2 text-center md:text-start'><span className=' font-extrabold'>Find the location</span> of any phone by its number</h1>
-<p className=' text-white sm:text-base text-sm font-normal mb-6 text-center md:text-start max-w-[285.04px] md:max-w-full sm:max-w-[327px] max-md:mx-auto max-sm:mx-auto'>Add phones to your account & track them when neededAdd phones to your account & track them when needed</p>
+<div className="container max-w-[1164px] sm:px-3 px-6 sm:pt-[63px] py-[56px]">
+<div className="flex flex-row flex-wrap -mx-3">
+<div className="md:w-1/2 w-full px-3 md:mb-0 sm:mb-10 mb-[30.5px] md:pt-20">
+<h1 className=' text-white lg:text-6xxl md:text-5xl text-3xxl leading-xs md:leading-full font-light mx-auto md:mx-0 max-w-[326px]  sm:max-w-[520px] mb-3 md:mb-2 text-center md:text-start'><span className=' font-extrabold'>Find the location</span> of any phone by its number</h1>
+<p className=' text-white sm:text-base text-sm leading-md font-normal mb-8 md:mb-6 text-center md:text-start max-w-[285.04px] md:max-w-full sm:max-w-[327px] max-md:mx-auto max-sm:mx-auto'>Add phones to your account & track them when neededAdd phones to your account & track them when needed</p>
 
-<div className=" max-lg:mx-auto bg-white rounded  flex items-center justify-between ps-2.5 max-w-[448px] mt-6">
+<div className=" max-lg:mx-auto bg-white rounded sm:h-[55px] h-[51px] flex items-center justify-between ps-2.5 max-w-[448px] mt-6">
               <div className=" flex items-center gap-[7px] ">
                 <span>
                  <Flag/>
                 </span>
                 <select
-                  className="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base"
+                  className="outline-none text-sm leading-lg md:text-base"
                   name="number"
                   id="number"
                 >
@@ -42,8 +42,8 @@ const Head = () => {
                   </option>
                 </select>
               </div>
-              <input type="number" className="outline-none w-[35%] sm:w-1/2" />
-              <button className=" bg-darkBlue rounded font-semibold text-sm md:text-base group text-white leading-[166%] py-[13.5px] px-[22.2px] flex items-center gap-1 hover:text-darkBlue hover:bg-white duration-300 relative border-transparent border-2  hover:border-dark-blue z-[1] after:absolute after:h-full after:w-1 after:top-0 after:skew-x-12 after:blur-[3px] overflow-hidden after:left-[-20%] after:bg-dark-blue hover:after:animate-moveToX">
+              <input type="number" className="outline-none w-[35%] sm:w-1/2 bg-transparent" />
+              <button className=" bg-darkBlue rounded font-semibold max-w-[112px] w-full text-sm md:text-base group text-white !leading-lg  h-full px-[22.2px] flex items-center gap-1 hover:text-darkBlue hover:bg-white duration-300 relative border-transparent border-2  hover:border-dark-blue z-[1] after:absolute after:h-full after:w-1 after:top-0 after:skew-x-12 after:blur-[3px] overflow-hidden after:left-[-20%] after:bg-dark-blue hover:after:animate-moveToX">
             <Locate/>
                 Locate
               </button>
@@ -65,7 +65,7 @@ const Head = () => {
 </div>
 </div>
       </div>
-      <img src={bottomLayer} alt="layer" className='lg:bottom-[-17%]  bottom-[-4%] w-full absolute z-[-1]' />
+      <img src={bottomLayer} alt="layer" className='lg:bottom-[-16%]  bottom-[-4%] w-full absolute z-[-1] max-sm:h-[97px]' />
     </div>
   );
 }

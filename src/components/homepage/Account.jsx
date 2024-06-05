@@ -21,7 +21,7 @@ import Buttons from "../common/Buttons";
 
 const Account = () => {
   return (
-    <div className=" pt-[98px] pb-[93.28px] relative z-[1]">
+    <div className=" pt-[98px]  relative z-[1]">
       <img
         src={accountVector1}
         alt="vector"
@@ -112,7 +112,7 @@ const Account = () => {
             </div>
           </div>
           <div className="lg:w-7/12 flex justify-center w-full px-3">
-            <div className="shadow-common-shadow ">
+            <div className="shadow-common-shadow rounded-xl">
               <div
                 className="xl:w-[679px] w-full shadow-[0px_0px_11.3px_0px_#00B5D81A]  border border-solid border-[#03045E1A] rounded-xl overflow-hidden
     "
@@ -144,12 +144,11 @@ const Account = () => {
                 </div>
                 <div className=" md:px-6 px-2 md:pt-[30px] py-[42px] md:pb-9">
                   <form>
-                    <label
-                      htmlFor="address"
+                    <p
                       className=" text-darkBlue sm:text-base text-sm"
                     >
                       Your Address
-                    </label>
+                    </p>
                     <div className=" bg-[#FAFAFA]  mt-2 border  border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-1">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <Home />
@@ -164,12 +163,11 @@ const Account = () => {
                     <p className=" text-grey sm:text-base text-sm font-normal md:mb-5 mb-[18px]">
                       Our enter address manually
                     </p>
-                    <label
-                      htmlFor="email"
+                    <p
                       className=" text-darkBlue sm:text-base text-sm "
                     >
                       Email Address
-                    </label>
+                    </p>
                     <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <EmailIcon />
@@ -181,12 +179,11 @@ const Account = () => {
                         className=" text-darkBlue bg-[#FAFAFA] w-full max-sm:!pl-5 p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                       />
                     </div>
-                    <label
-                      htmlFor="card"
+                    <p
                       className=" text-darkBlue sm:text-base text-sm "
                     >
                       Card Number (Visa or Mastercard)
-                    </label>
+                    </p>
                     <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <Card />
@@ -200,12 +197,11 @@ const Account = () => {
                     </div>
                     <div className=" flex w-full gap-[19px] md:gap-[17px] md:mb-[46px] mb-[38px]">
                       <div className="w-1/2">
-                        <label
-                          htmlFor="date"
+                        <p
                           className=" text-darkBlue sm:text-base text-sm"
                         >
                           Expiry Date
-                        </label>{" "}
+                        </p>{" "}
                         <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] ">
                           <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                             <Calender />
@@ -219,12 +215,11 @@ const Account = () => {
                         </div>
                       </div>
                       <div className="w-1/2">
-                        <label
-                          htmlFor="password"
+                        <p
                           className=" text-darkBlue sm:text-base text-sm "
                         >
                           Card Security Code
-                        </label>{" "}
+                        </p>{" "}
                         <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px]">
                           <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                             <Lock />

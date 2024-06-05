@@ -195,7 +195,7 @@ export const Lock = () => {
 
 export const NavLogo=(props)=> {
   return (
-    <svg className={`${props.className} duration-300`}
+    <svg className={`${props.className} duration-300 max-sm:w-[98.11px] max-sm:h-[13.64px]`}
       width="259"
       height="36"
       viewBox="0 0 259 36"

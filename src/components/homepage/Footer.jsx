@@ -9,9 +9,9 @@ const Footer = () => {
     const  date= new Date();
     const year = date.getFullYear();
   return (
-    <div className="pt-32 max-md:py-14 z-[1] relative">
+    <div className="pt-28 max-md:py-14 z-[1] relative">
       <div className="container max-w-[1140px] px-3">
-        <div className="flex flex-row items-center pb-12 flex-wrap -mx-3">
+        <div className="flex flex-row items-center pb-[46px] flex-wrap -mx-3">
           <div className="md:w-1/3 w-full md:justify-start flex justify-center">
             <img src={footerlogo} alt="footerlogo" />
           </div>
