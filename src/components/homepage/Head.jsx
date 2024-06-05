@@ -7,8 +7,8 @@ const Head = () => {
   return (
     <div className='bg-[url(./assets/images/Herobg.webp)] bg-cover bg-center bg-no-repeat min-h-screen flex flex-col relative'>
       <NavBar/>
-      <div className="flex flex-grow items-center">
-<div className="container max-w-[1164px] sm:px-3 px-6 sm:pt-[63px] pt-10">
+      <div className="flex sm:flex-grow items-center">
+<div className="container max-w-[1164px] sm:px-3 px-6 sm:pt-[63px] py-[56px]">
 <div className="flex flex-row flex-wrap -mx-3 items-center">
 <div className="md:w-1/2 w-full px-3">
 <h1 className=' text-white lg:text-6xxl md:text-5xl text-3xxl leading-full font-light mx-auto md:mx-0 max-w-[520px] mb-2 text-center md:text-start'><span className=' font-extrabold'>Find the location</span> of any phone by its number</h1>
