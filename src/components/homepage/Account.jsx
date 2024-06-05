@@ -33,10 +33,10 @@ const Account = () => {
         className=" absolute right-0 sm:bottom-[15%] bottom-[1%] z-[-1] max-sm:w-[41px]"
       />
       <div className="container max-w-[1164px] sm:px-3 px-6 ">
-        <h2 className=" lg:text-5xl md:text-3xl text-2xxl text-darkBlue font-light leading-full capitalize text-center mb-2">
+        <h2 className=" lg:text-5xl md:text-3xl text-2xxl text-darkBlue font-light max-sm:leading-xs leading-full capitalize text-center mb-2">
           Create your <span className=" font-extrabold">account</span>
         </h2>
-        <p className=" sm:text-base text-sm text-center text-lightBlack md:pb-[72px] pb-[33.7px] ">
+        <p className=" sm:text-base text-sm max-sm:leading-md text-center text-lightBlack md:pb-[72px] pb-[33.7px] ">
           Join now and protect your family's phones
         </p>
         <div className="flex flex-row flex-wrap -mx-3 items-center">
@@ -49,7 +49,7 @@ const Account = () => {
                 <div className=" animate-wiggle bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Location />
                 </div>
-                <p className=" sm:text-base text-sm text-lightBlack font-normal">
+                <p className=" sm:text-base max-sm:leading-md text-sm text-lightBlack font-normal">
                   Unlimited location searches
                 </p>
               </div>
@@ -57,7 +57,7 @@ const Account = () => {
                 <div className=" animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Track />
                 </div>
-                <p className=" sm:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   Track up to 5 phones
                 </p>
               </div>
@@ -65,7 +65,7 @@ const Account = () => {
                 <div className=" animate-wiggle2 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Arrows />
                 </div>
-                <p className=" sm:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   Multiple ways to locate a phone
                 </p>
               </div>
@@ -73,7 +73,7 @@ const Account = () => {
                 <div className=" animate-wiggle3 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Protect />
                 </div>
-                <p className=" sm:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   Protect your family
                 </p>
               </div>
@@ -81,7 +81,7 @@ const Account = () => {
                 <div className=" animate-wiggle bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Money />
                 </div>
-                <p className=" sm:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   14 day money back guarantee
                 </p>
               </div>
@@ -89,7 +89,7 @@ const Account = () => {
                 <div className=" animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Private />
                 </div>
-                <p className=" sm:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   Private & confidential
                 </p>
               </div>
@@ -99,7 +99,7 @@ const Account = () => {
                 className=" lg:max-w-[424px] max-w-[700px] w-full shadow-[0px_0px_9.5px_0px_#00000014] md:p-[18px] p-6
     "
               >
-                <p className=" sm:text-base text-sm text-center text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-center text-lightBlack font-normal">
                   Terms: Users must be 16 or over. Pricing options are shown on
                   the payment page. Create an account to start a 24 hour trial
                   with full access to all our tools. The service can be
@@ -120,7 +120,7 @@ const Account = () => {
                 <div className="flex justify-between items-center md:px-5 px-2 md:py-[15px] py-[24.5px] bg-darkBlue">
                   <div className=" flex  gap-3 items-center">
                     <Circle />
-                    <p className=" text-white md:text-3xxl text-2xl leading-sm">
+                    <p className="  text-white md:text-3xxl text-2xl leading-sm">
                       Debit/Credit Card
                     </p>
                   </div>
@@ -145,7 +145,7 @@ const Account = () => {
                 <div className=" md:px-6 px-2 md:pt-[30px] py-[42px] md:pb-9">
                   <form>
                     <p
-                      className=" text-darkBlue sm:text-base text-sm"
+                      className=" text-darkBlue sm:text-base text-sm max-sm:leading-md"
                     >
                       Your Address
                     </p>
@@ -157,14 +157,14 @@ const Account = () => {
                         type="text"
                         id="address"
                         placeholder="Address Line 1"
-                        className=" max-sm:!pl-5 text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                        className=" max-sm:!pl-5 text-darkBlue bg-[#FAFAFA] w-full max-sm:leading-md max-sm:placeholder:leading-md p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                       />
                     </div>
-                    <p className=" text-grey sm:text-base text-sm font-normal md:mb-5 mb-[18px]">
+                    <p className=" text-grey max-sm:leading-md sm:text-base text-sm font-normal md:mb-5 mb-[18px]">
                       Our enter address manually
                     </p>
                     <p
-                      className=" text-darkBlue sm:text-base text-sm "
+                      className=" text-darkBlue max-sm:leading-md sm:text-base text-sm "
                     >
                       Email Address
                     </p>
@@ -176,11 +176,11 @@ const Account = () => {
                         type="text"
                         id="email"
                         placeholder="Email Address"
-                        className=" text-darkBlue bg-[#FAFAFA] w-full max-sm:!pl-5 p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                        className=" text-darkBlue  max-sm:leading-md max-sm:placeholder:leading-md bg-[#FAFAFA] w-full max-sm:!pl-5 p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                       />
                     </div>
                     <p
-                      className=" text-darkBlue sm:text-base text-sm "
+                      className=" text-darkBlue max-sm:leading-md sm:text-base text-sm "
                     >
                       Card Number (Visa or Mastercard)
                     </p>
@@ -192,13 +192,13 @@ const Account = () => {
                         type="text"
                         id="card"
                         placeholder="Valid Card Number"
-                        className=" text-darkBlue max-sm:!pl-5 bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                        className=" text-darkBlue  max-sm:leading-md max-sm:placeholder:leading-md max-sm:!pl-5 bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                       />
                     </div>
                     <div className=" flex w-full gap-[19px] md:gap-[17px] md:mb-[46px] mb-[38px]">
                       <div className="w-1/2">
                         <p
-                          className=" text-darkBlue sm:text-base text-sm"
+                          className=" text-darkBlue max-sm:leading-md  sm:text-base text-sm"
                         >
                           Expiry Date
                         </p>{" "}
@@ -210,13 +210,13 @@ const Account = () => {
                             type="text"
                             id="date"
                             placeholder="MM/YY"
-                            className=" text-darkBlue max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base  placeholder:text-sm"
+                            className=" text-darkBlue  max-sm:leading-md max-sm:placeholder:leading-md max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base  placeholder:text-sm"
                           />
                         </div>
                       </div>
                       <div className="w-1/2">
                         <p
-                          className=" text-darkBlue sm:text-base text-sm "
+                          className=" text-darkBlue max-sm:leading-md sm:text-base text-sm "
                         >
                           Card Security Code
                         </p>{" "}
@@ -228,7 +228,7 @@ const Account = () => {
                             type="text"
                             id="password"
                             placeholder="E.x @ 0123"
-                            className=" text-darkBlue max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                            className=" text-darkBlue  max-sm:leading-md max-sm:placeholder:leading-md max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                           />
                         </div>
                       </div>

@@ -14,15 +14,15 @@ const Advantages = () => {
           Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
           elit rhoncus vestibulum fames libero id.
         </p>
-        <div className="flex flex-wrap xl:mb-11 mb-8 flex-row -mx-3 justify-center">
+        <div className="flex flex-wrap xl:mb-11 mb-[22px] flex-row -mx-3 justify-center">
           {AdvantageData.map((obj, i) => (
             <div
               key={i}
-              className="xl:w-1/4  sm:w-1/2 w-full xl:mb-0 !mb-[18px]  px-3"
+              className="xl:w-1/4  sm:w-1/2 w-full xl:mb-0 !mb-[18px] px-3"
             >
               <div
                 className={`border border-lightGrey group xl:h-[253px] h-full xl:max-w-[271px]  max-sm:h-[184px] shadow-common-shadow duration-300 hover:border-darkBlue rounded-xl ${
-                  i % 2 !== 0 ? "sm:mt-[23px]" : ""
+                  i % 2 !== 0 ? "xl:mt-[23px]" : ""
                 }`}
               >
                 <div className="p-5  h-full hover:border-transparent xl:h-[253px] xl:max-w-[271px] duration-300 w-full rounded-[11.20px] border border-lightGrey ">
