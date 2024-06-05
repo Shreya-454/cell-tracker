@@ -17,6 +17,7 @@ import visa from "../../assets/svg/visa.svg";
 import mastercard from "../../assets/svg/Mastercard.svg";
 import accountVector1 from "../../assets/svg/accountVector1.svg";
 import accountVector2 from "../../assets/svg/accountVector2.svg";
+import Buttons from "../common/Buttons";
 
 const Account = () => {
   return (
@@ -237,9 +238,7 @@ const Account = () => {
                         </div>
                       </div>
                     </div>
-                    <button className=" text-white bg-darkBlue w-full py-4 px-7 rounded md:text-base text-sm leading-lg">
-                      Buy Now (50C)
-                    </button>
+                   <Buttons text="Buy Now (50C)" name="!font-normal !w-full"/>
                   </form>
                 </div>
               </div>
