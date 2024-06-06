@@ -11,7 +11,7 @@ const Find = () => {
             <img
               src={findMobile}
               alt="mobile" data-aos="fade-right"
-              className="min-w-[380px] md:min-w-[556px] h-[420px] md:h-[668px] lg:ml-40 xl:ml-36 ml-4 -translate-y-36"
+              className="min-w-[380px] md:min-w-[556px] h-[420px] md:h-[668px] lg:ml-40 xl:ml-36 ml-4 !-translate-y-36"
             />
           </div>
           <div data-aos="fade-left" className="lg:w-7/12 w-full px-3 lg:py-[98px] max-lg:-mt-40  max-lg:pb-[46px] ">

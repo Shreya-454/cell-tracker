@@ -31,7 +31,7 @@ const Work = () => {
                   i === 2 ? "flex md:justify-end md:mt-0 mt-[111px]" : ""
                 } ${i === 1 ? "flex md:justify-center max-sm:mt-[111px]" : ""}`}
               >
-                <div className="md:p-[28px_14px_32px_13px] py-[19px] px-[9px] sm:h-[298px]  max-sm:h-[233px] w-[267px] relative after:bg-blueGradient after:absolute after:top-0 after:bottom-[100%] hover:after:bottom-0 overflow-hidden z-[1] group after:z-[-1] duration-300 after:duration-300 after:right-0 after:left-0 ">
+                <div data-aos="zoom-in" className="md:p-[28px_14px_32px_13px] py-[19px] px-[9px] sm:h-[298px]  max-sm:h-[233px] w-[267px] relative after:bg-blueGradient after:absolute after:top-0 after:bottom-[100%] hover:after:bottom-0 overflow-hidden z-[1] group after:z-[-1] duration-300 after:duration-300 after:right-0 after:left-0 ">
                   <div className="flex justify-center">
                     <div className="sm:w-[75px] w-[61px] h-[57px]  sm:h-[70px] bg-light-Blue group-hover:bg-white duration-300 flex justify-center items-center">
                       <img src={data.icons} alt="provide" className=" max-sm:w-[29px] max-sm:h-[29px]" />

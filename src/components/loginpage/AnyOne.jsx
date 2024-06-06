@@ -31,7 +31,7 @@ const AnyOne = () => {
       </p>
       <div className="flex justify-between max-lg:flex-wrap items-center mt-[31px]  md:mt-[56px]">
         <div className="lg:w-1/3 lg:px-[2px] max-lg:order-1 max-lg:mt-12 max-md:mt-12 w-full">
-          <div className="group relative overflow-hidden z-[1] after:absolute after:bg-blueGradient after:duration-300  after:z-[-1] after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0 hover:border-transparent border max-w-[376px] mx-auto border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
+          <div data-aos="fade-right" className="group relative overflow-hidden z-[1] after:absolute after:bg-blueGradient after:duration-300  after:z-[-1] after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0 hover:border-transparent border max-w-[376px] mx-auto border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
             <div className="flex gap-[14px] items-center">
               <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300  bg-light-Blue">
                 <CellTracker />
@@ -42,7 +42,7 @@ const AnyOne = () => {
               </p>
             </div>
           </div>
-          <div className="group relative overflow-hidden z-[1] after:absolute after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0 hover:border-transparent after:bg-blueGradient  after:duration-300  after:z-[-1] max-w-[376px] mx-auto max-md:mt-[18px] mt-6 border border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
+          <div data-aos="fade-right" className="group relative overflow-hidden z-[1] after:absolute after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0 hover:border-transparent after:bg-blueGradient  after:duration-300  after:z-[-1] max-w-[376px] mx-auto max-md:mt-[18px] mt-6 border border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
             <div className="flex gap-[14px] items-center">
               <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300 bg-light-Blue">
                 <CustumizeChat />
@@ -62,7 +62,7 @@ const AnyOne = () => {
           />
         </div>
         <div className="lg:w-1/3 lg:px-[2px] max-lg:mt-[18px] max-lg:order-2 max-md:mt-[18px] w-full">
-          <div className="group relative overflow-hidden z-[1] after:absolute  after:bg-blueGradient  after:duration-300  after:z-[-1] max-w-[376px] mx-auto border after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0 hover:border-transparent border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
+          <div data-aos="fade-left" className="group relative overflow-hidden z-[1] after:absolute  after:bg-blueGradient  after:duration-300  after:z-[-1] max-w-[376px] mx-auto border after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0 hover:border-transparent border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
             <div className="flex gap-[14px] items-center">
               <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300 bg-light-Blue">
                 <LocationReal />
@@ -72,7 +72,7 @@ const AnyOne = () => {
               </p>
             </div>
           </div>
-          <div className="group relative overflow-hidden z-[1] after:absolute  after:bg-blueGradient  after:duration-300 after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0 hover:border-transparent after:z-[-1] max-md:mt-[18px] max-w-[376px] mx-auto mt-6 border border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
+          <div data-aos="fade-left" className="group relative overflow-hidden z-[1] after:absolute  after:bg-blueGradient  after:duration-300 after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0 hover:border-transparent after:z-[-1] max-md:mt-[18px] max-w-[376px] mx-auto mt-6 border border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
             <div className="flex gap-[14px] items-center">
               <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300 bg-light-Blue">
                 <AnyMobile />
@@ -84,7 +84,7 @@ const AnyOne = () => {
           </div>
         </div>
       </div>
-      <div className="group relative z-[1] after:absolute after:bg-blueGradient after:duration-300 after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0  after:z-[-1] max-w-[376px] mx-auto mt-[21px] w-full">
+      <div data-aos="fade-up" className="group relative z-[1] after:absolute after:bg-blueGradient after:duration-300 after:top-0 after:bottom-0 after:left-0 after:right-[100%] hover:after:right-0  after:z-[-1] max-w-[376px] mx-auto mt-[21px] w-full">
         <div className="max-md:mt-[18px] mt-[21px] border border-gray-low-300 rounded-[4px] lg:min-h-[156px] min-h-[152px] flex  lg:p-[12px_18px_12px_0] h-full p-[16px_16px_16px_0]">
           <div className="flex gap-[14px] items-center">
             <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300 bg-light-Blue">

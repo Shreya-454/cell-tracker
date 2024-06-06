@@ -14,7 +14,7 @@ const Header = () => {
 <Nav/>
     <div className="max-w-[1164px] w-full mt-[66px] lg:mt-[104px] px-6 sm:px-3 mx-auto">
       <div className="flex flex-row flex-wrap -mx-3">
-        <div className="lg:w-1/2 w-full px-3 lg:mt-[71px]">
+        <div className="lg:w-1/2 w-full px-3 lg:mt-[71px]" data-aos="fade-right">
           <h1 className=" text-white max-lg:text-center text-[32px] sm:text-5xl lg:text-[52px] xl:text-[64px] leading-[37px] sm:leading-[49px] lg:leading-[64px] font-extrabold font-mukta">
             Locate any phone,
             <span className=" font-light"> anywhere, anytime</span>
@@ -61,11 +61,11 @@ const Header = () => {
         <div className="lg:w-1/2 w-full px-3 max-lg:mt-[68px]">
           <div className=" relative  max-lg:max-w-[600px] max-md:max-w-[322px] mx-auto z-[1]">
             <img
-              src={DoubleMobile}
+              src={DoubleMobile} data-aos="fade-left"
               className="xl:min-w-[612px]  max-md:h-[321px] w-full xl:h-[599px]"
               alt="phoneHeader"
             />
-            <div className=" absolute z-[2] -bottom-4 md:bottom-[80px] right-0 xl:right-[-42px] inline-block bg-white bg-headcard rounded-xl shadow-[0px_9px_13.9px_0_#0000001C]">
+            <div data-aos="zoom-in" className=" absolute z-[2]  -bottom-4 md:bottom-[80px] right-0 xl:right-[-42px] inline-block bg-white bg-headcard rounded-xl shadow-[0px_9px_13.9px_0_#0000001C]">
               <div className="relative z-[1] md:p-[16px_16px_12px_14px] p-2">
                 <div className="flex items-center gap-[6px] lg:gap-3">
                   <span>
