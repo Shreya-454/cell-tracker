@@ -41,11 +41,11 @@ const Account = () => {
         </p>
         <div className="flex flex-row flex-wrap -mx-3 items-center">
           <div className="lg:w-5/12 w-full px-3  mb-[42px] lg:mb-0 sm:flex flex-col items-center lg:block">
-            <h3 className=" md:text-3xxl sm:text-2xxl text-2xl leading-sm text-darkBlue font-light mb-6">
+            <h3 data-aos="fade-right" className=" md:text-3xxl sm:text-2xxl text-2xl leading-sm text-darkBlue font-light mb-6">
               Get a <span className=" font-extrabold">24 hour</span> trial!
             </h3>
             <div>
-              <div className="flex gap-2 items-center mb-[11px]">
+              <div data-aos="fade-right"  className="flex gap-2 items-centermd:mb-[11px] mb-[18px]">
                 <div className=" animate-wiggle  max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Location />
                 </div>
@@ -53,7 +53,7 @@ const Account = () => {
                   Unlimited location searches
                 </p>
               </div>
-              <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
+              <div data-aos="fade-right" className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
                 <div className=" max-sm:w-[38px] max-sm:h-[30px] animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Track />
                 </div>
@@ -61,7 +61,7 @@ const Account = () => {
                   Track up to 5 phones
                 </p>
               </div>
-              <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
+              <div data-aos="fade-right" className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
                 <div className=" max-sm:w-[38px] max-sm:h-[30px] animate-wiggle2 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Arrows />
                 </div>
@@ -69,7 +69,7 @@ const Account = () => {
                   Multiple ways to locate a phone
                 </p>
               </div>
-              <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
+              <div data-aos="fade-right" className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
                 <div className=" animate-wiggle3 max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Protect />
                 </div>
@@ -77,7 +77,7 @@ const Account = () => {
                   Protect your family
                 </p>
               </div>
-              <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
+              <div data-aos="fade-right" className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
                 <div className=" animate-wiggle max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Money />
                 </div>
@@ -85,7 +85,7 @@ const Account = () => {
                   14 day money back guarantee
                 </p>
               </div>
-              <div className="flex gap-2 items-center md:mb-10 mb-[27.62px]">
+              <div  data-aos="fade-right"className="flex gap-2 items-center md:mb-10 mb-[27.62px]">
                 <div className=" animate-wiggle1 max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Private />
                 </div>
@@ -94,7 +94,7 @@ const Account = () => {
                 </p>
               </div>
             </div>
-            <div className=" flex justify-center lg:block">
+            <div data-aos="fade-right" className="  flex justify-center lg:block">
               <div
                 className=" lg:max-w-[424px] max-w-[700px] w-full shadow-[0px_0px_9.5px_0px_#00000014] md:p-[18px] p-6
     "
@@ -112,7 +112,7 @@ const Account = () => {
             </div>
           </div>
           <div className="lg:w-7/12 flex justify-center w-full px-3">
-            <div className="shadow-common-shadow rounded-xl">
+            <div className="shadow-common-shadow rounded-xl" data-aos="zoom-in">
               <div
                 className="xl:w-[679px] w-full shadow-[0px_0px_11.3px_0px_#00B5D81A]  border border-solid border-lightGrey rounded-xl overflow-hidden
     "

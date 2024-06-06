@@ -20,7 +20,7 @@ const Advantages = () => {
               key={i}
               className="xl:w-1/4  sm:w-1/2 w-full xl:mb-0 !mb-[18px] px-3"
             >
-              <div
+              <div data-aos={`${  i % 2 !== 0 ? "fade-down" : "fade-up"}`}
                 className={`border border-lightGrey group xl:h-[253px] h-full xl:max-w-[271px]  max-sm:h-[184px] shadow-common-shadow duration-300 hover:border-darkBlue rounded-xl ${
                   i % 2 !== 0 ? "xl:mt-[23px]" : ""
                 }`}

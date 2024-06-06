@@ -10,11 +10,11 @@ const Find = () => {
           <div className=" lg:w-5/12 w-full px-3 flex justify-center lg:max-h-[391px]">
             <img
               src={findMobile}
-              alt="mobile"
+              alt="mobile" data-aos="fade-right"
               className="min-w-[380px] md:min-w-[556px] h-[420px] md:h-[668px] lg:ml-40 xl:ml-36 ml-4 -translate-y-36"
             />
           </div>
-          <div className="lg:w-7/12 w-full px-3 lg:py-[98px] max-lg:-mt-40  max-lg:pb-[46px] ">
+          <div data-aos="fade-left" className="lg:w-7/12 w-full px-3 lg:py-[98px] max-lg:-mt-40  max-lg:pb-[46px] ">
             <h2 className=" text-white font-light lg:text-5xl md:text-3xl text-2xxl leading-full max-sm:leading-xs mb-2 text-center">
               Find your <span className=" font-extrabold">phone</span>
             </h2>

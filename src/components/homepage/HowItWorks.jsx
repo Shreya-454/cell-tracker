@@ -20,14 +20,14 @@ const HowItWorks = () => {
             <div className=" xl:w-[569px] md:w-[569px] w-[349.54px] sm:w-[500px] max-sm:top-[2%] lg:w-[500px] lg:h-[420px] h-[348.9px] sm:h-[420px] md:h-[490.95px] xl:h-[490.95px] bg-ellipse absolute animate-wiggle4 left-1/2 max-md:-translate-x-1/2 md:left-[13%] lg:left-[2%] xl:left-[-7%] z-[-1]"></div>
             <img
               src={workMobile}
-              alt="workmobile"
-              className=" xl:min-w-[680.1px] max-sm:min-w-[401.29px] max-sm:h-[365.32px] xl:h-[626.55px] xl:max-w-[unset] xl:-translate-x-28"
+              alt="workmobile" data-aos="fade-right"
+              className=" xl:min-w-[680.1px] max-sm:min-w-[401.29px] max-sm:h-[365.32px] xl:h-[626.55px] xl:max-w-[unset] xl:!-translate-x-28"
             />
           </div>
           <div className="lg:w-1/2 lg:mt-0 mt-8 max-lg:flex max-md:flex-col w-full px-3">
             {WorkData.map((obj, i) => (
               <div
-                key={i}
+                key={i} data-aos="fade-left"
                 className={` ${
                   i === 1
                     ? "!p-5"
@@ -35,7 +35,7 @@ const HowItWorks = () => {
                 } sm:pt-5 sm:pb-[37px] px-4 pt-4 pb-[55px] mb-[18px] max-lg:w-[50%] max-md:w-full max-lg:mx-4 hover:border-darkBlue duration-300 rounded-xl max-xs:h-[327px] max-md:mx-auto  border shadow-common-shadow max-w-[536px] border-lightGrey`}
               >
                 <div
-                  className={`w-12 h-[41px] bg-lightBlue flex justify-center items-center max-sm:w-[39px] max-sm:h-[33px] ${
+                  className={`w-12  h-[41px] bg-lightBlue flex justify-center items-center max-sm:w-[39px] max-sm:h-[33px] ${
                     i === 1 ? "animate-wiggle2" : "animate-wiggle3"
                   } `}
                 >
