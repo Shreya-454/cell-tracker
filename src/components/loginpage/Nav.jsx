@@ -63,14 +63,7 @@ const Nav = () => {
             />
           </div>
         </div>
-        <button
-          onClick={() => setnavShow(!navShow ? true : false)}
-          className={`menu-icon ${
-            navShow
-              ? "bg-transparent after:bg-black before:bg-black before:h-[2px] before:w-3 after:h-[2px] after:w-3 after:rotate-45 before:-rotate-45 "
-              : "after:w-3 after:bg-white after:h-[3px] after:-top-[6px] after:left-0 after:rounded-full before:w-3 before:bg-white before:h-[3px] before:-bottom-[6px] before:right-0 before:rounded-full"
-          } my-2.5`}
-        ></button>
+       <button onClick={() => setnavShow(!navShow ? true : false)} className={`menu-icon ${navShow ? "bg-transparent after:bg-black before:bg-black before:h-[1px] before:w-[14px] after:h-[1px] after:w-[14px] after:rotate-45 before:-rotate-45 " : "after:w-3 after:bg-white after:h-[3px] after:-top-[6px] after:left-0 after:rounded-full before:w-3 before:bg-white before:h-[3px] before:-bottom-[6px] before:right-0 before:rounded-full"} my-2.5`}></button>
       </div>
     </nav>
   );

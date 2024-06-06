@@ -7,7 +7,7 @@ import Loginpage from './pages/Loginpage';
 
 function App() {
   return (
-    <div className="">
+    <div>
    <Routes>
    <Route path="/" element={<LandingPage/>}/>
    <Route path="login" element={<Loginpage/>} />
