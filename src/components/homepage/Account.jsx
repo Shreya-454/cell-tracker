@@ -151,6 +151,7 @@ const Account = () => {
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <Home />
                       </div>
+                      <label htmlFor="address" hidden></label>
                       <input
                         type="text"
                         id="address"
@@ -168,6 +169,7 @@ const Account = () => {
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <EmailIcon />
                       </div>
+                      <label htmlFor="email" hidden></label>
                       <input
                         type="text"
                         id="email"
@@ -182,6 +184,7 @@ const Account = () => {
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <Card />
                       </div>
+                      <label htmlFor="card" hidden></label>
                       <input
                         type="text"
                         id="card"
@@ -198,6 +201,7 @@ const Account = () => {
                           <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                             <Calender />
                           </div>
+                          <label htmlFor="date" hidden></label>
                           <input
                             type="text"
                             id="date"
@@ -214,6 +218,7 @@ const Account = () => {
                           <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                             <Lock />
                           </div>
+                          <label htmlFor="password" hidden></label>
                           <input
                             type="text"
                             id="password"

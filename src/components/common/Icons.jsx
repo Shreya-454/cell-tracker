@@ -710,7 +710,7 @@ export const Location1 = () => {
     </svg>
   );
 };
-export const LocationLightElippes = () => {
+export const LocationEllipse = () => {
   return (
     <svg
       width="39"
@@ -728,7 +728,7 @@ export const LocationLightElippes = () => {
     </svg>
   );
 };
-export const CellTracker = () => {
+export const Celltracker= () => {
   return (
     <svg
       width="36"
@@ -815,7 +815,7 @@ export const LocationelleipesLeft = () => {
     </svg>
   );
 };
-export const CustumizeChat = () => {
+export const Chat = () => {
   return (
     <svg
       width="36"
@@ -856,7 +856,7 @@ export const CustumizeChat = () => {
     </svg>
   );
 };
-export const LocationReal = () => {
+export const RealTime = () => {
   return (
     <svg
       width="36"
@@ -897,7 +897,7 @@ export const LocationReal = () => {
     </svg>
   );
 };
-export const AnyMobile = () => {
+export const MobileNum = () => {
   return (
     <svg
       width="36"

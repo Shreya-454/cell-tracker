@@ -11,7 +11,7 @@ import install from "../../assets/svg/install.svg";
 import provide from "../../assets/svg/provide.svg";
 import customize from "../../assets/svg/customize.svg";
 import receive from "../../assets/svg/receive.svg";
-import cellTracker from "../../assets/svg/celltracker.svg";
+import CellTracker from "../../assets/svg/celltracker.svg";
 import message from "../../assets/svg/message.svg";
 
 export const AdvantageData = [
@@ -85,7 +85,7 @@ export const HowData = [
 ];
 export const AnyWhereFirst=[
   {
-    icons: cellTracker,
+    icons: CellTracker,
     desc:"Cell Tracker runs on all phones and configurations, of all brands",
   },
   {

@@ -4,7 +4,7 @@ import {
   Flag,
   Locate,
   Location1,
-  LocationLightElippes,
+  LocationEllipse,
 } from "../common/Icons";
 import Nav from "./Nav";
 
@@ -29,6 +29,7 @@ const Header = () => {
                 <span>
                  <Flag/>
                 </span>
+                <label htmlFor="number" hidden></label>
                 <select
                   className="outline-none text-sm leading-lg md:text-base"
                   name="number"
@@ -51,7 +52,8 @@ const Header = () => {
                   </option>
                 </select>
               </div>
-              <input type="number" className="outline-none w-[35%] sm:w-1/2 bg-transparent !appearance-none " />
+              <label htmlFor="num" hidden></label>
+              <input type="number" id="num" className="outline-none w-[35%] sm:w-1/2 bg-transparent !appearance-none " />
               <button className=" bg-darkBlue rounded font-semibold max-w-[112px] w-full hover:border-darkBlue group text-sm sm:text-base group text-white !leading-lg  h-full px-[22.2px] flex items-center gap-1 hover:text-darkBlue hover:bg-white duration-300  border-transparent border-2">
             <Locate/>
                 Locate
@@ -89,7 +91,7 @@ const Header = () => {
                 June 02,2024 17:34
                 </span>
                 <span className="absolute z-[-1] left-0 bottom-3 lg:bottom-[3px]">
-                  <LocationLightElippes />
+                  <LocationEllipse />
                 </span>
               </div>
             </div>
