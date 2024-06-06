@@ -3,7 +3,7 @@ import Header from '../components/loginpage/Header'
 import Universal from '../components/loginpage/Universal'
 import AnyOne from '../components/loginpage/AnyOne'
 import Work from '../components/loginpage/Work'
-import Footer from '../components/common/Footer'
+import Foot from '../components/loginpage/Foot'
 
 const Loginpage = () => {
   return (
@@ -12,7 +12,7 @@ const Loginpage = () => {
       <Universal/>
       <AnyOne/>
       <Work/>
-      <Footer/>
+    <Foot/>
     </div>
   )
 }

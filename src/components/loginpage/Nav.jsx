@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import { NavLogo } from "../common/Icons";
-import { NavLinkData } from "../common/Helper";
 import Buttons from "../common/Buttons";
 import { NavLink } from "react-router-dom";
 
@@ -15,8 +14,8 @@ const Nav = () => {
   return (
     <nav>
       <div className="container max-w-[1188px] pb-[10px] pt-8 md:pt-[27px] md:pb-[21px] flex items-center justify-between">
-        <a className="relative z-50 " href="http://">
-          <NavLogo className={`${navShow ? "fill-darkBlue" : "fill-white"}`} />
+      <a className="relative z-50 " href="http://">
+          <NavLogo className={` !fill-white ${navShow ? "max-md:!fill-darkBlue" : ""}`} />
         </a>
         <div
           className={`flex items-center ${
@@ -26,7 +25,6 @@ const Nav = () => {
           <ul className="flex items-center gap-5 md:gap-[35px] max-md:flex-col">
         <li>
         <NavLink to="/"
-                href=""
                 onClick={() => setnavShow(!navShow)}
                 className={`leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({ isActive, isPending }) =>
                 isActive ? "after:absolute relative hover:after:left-[0] after:bottom-0 after:w-0 after:left-[50%] after:rounded-[10px] after:h-[2px] after:bg-white hover:after:w-full after:duration-300" : ""
@@ -35,18 +33,17 @@ const Nav = () => {
               Home
               </NavLink>
         </li>
-        <li>  <NavLink
-                href=""
+        <li>  <a
+              href="#work"
                 onClick={() => setnavShow(!navShow)}
                 className={`leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({ isActive, isPending }) =>
                     isActive ? "after:absolute relative hover:after:left-[0] after:bottom-0 after:w-0 after:left-[50%] after:rounded-[10px] after:h-[2px] after:bg-white hover:after:w-full after:duration-300" : ""
                       }`}
               >
               How It Works
-              </NavLink>
+              </a>
               </li>
               <li>  <NavLink
-                href=""
                 onClick={() => setnavShow(!navShow)}
                 className={`leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({ isActive, isPending }) =>
                     isActive ? "after:absolute relative hover:after:left-[0] after:bottom-0 after:w-0 after:left-[50%] after:rounded-[10px] after:h-[2px] after:bg-white hover:after:w-full after:duration-300" : ""

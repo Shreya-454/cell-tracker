@@ -10,7 +10,7 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <div className=" h-full   bg-[url(./assets/images/logInHeadbg.webp)] relative z-[1] flex flex-col bg-no-repeat bg-cover bg-center lg:bg-full min-h-[810px]">
+    <div className=" h-full   bg-[url(./assets/images/logInHeadbg.webp)] max-sm:bg-[url(./assets/images/smHeadbg.webp)] relative z-[1] flex flex-col bg-no-repeat bg-cover bg-center lg:bg-full min-h-[810px]">
 <Nav/>
     <div className="max-w-[1164px] w-full mt-[66px] lg:mt-[104px] px-6 sm:px-3 mx-auto">
       <div className="flex flex-row flex-wrap -mx-3">
@@ -19,7 +19,7 @@ const Header = () => {
             Locate any phone,
             <span className=" font-light"> anywhere, anytime</span>
           </h1>
-          <p className=" font-normal max-lg:text-center text-base sm:text-base leading-6 text-white mt-3 sm:mt-2 lg:pe-8">
+          <p className=" font-normal max-lg:text-center text-sm sm:text-base leading-6 text-white mt-3 sm:mt-2 lg:pe-8">
             Lorem ipsum dolor sit amet consectetur. Nisl vitae arcu volutpat
             nunc cursus. Lacus ornare aliquet condimentum elementum elementum
             nisl nibh sed. Egestas aliquam id quam nunc.

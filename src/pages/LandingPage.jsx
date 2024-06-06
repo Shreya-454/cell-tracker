@@ -5,7 +5,7 @@ import Account from '../components/homepage/Account'
 import Advantages from '../components/homepage/Advantages'
 import HowItWorks from '../components/homepage/HowItWorks'
 import Find from '../components/homepage/Find'
-import Footer from '../components/common/Footer'
+import Footer from '../components/homepage/Footer'
 
 
 const LandingPage = () => {

@@ -15,9 +15,9 @@ const NavBar = () => {
   return (
     <nav className="max-md:pt-8 max-md:pb-2.5">
       <div className="container sm:px-3 px-6 max-w-[1188px] py-[5px]  md:py-[11px] flex items-center justify-between">
-        <a className="relative z-50 " href="http://">
-          <NavLogo className={`${navShow ? "!fill-darkBlue" : "!fill-white"}`} />
-        </a>
+        <Link to="/"  className="relative z-50 ">
+          <NavLogo className={`!fill-white ${navShow ? "max-md:!fill-darkBlue" : ""}`} />
+        </Link>
         <div
           className={`flex items-center ${
             navShow ? "top-0" : "-top-full"
@@ -25,7 +25,7 @@ const NavBar = () => {
         >
           <a
             onClick={() => setnavShow(!navShow)}
-            href="http://"
+            href="#"
             className="content leading-[26.59px] navlinkhover text-black md:text-white flex items-center gap-[6px]"
           >
             <QuickHelpIcon /> Quick Help

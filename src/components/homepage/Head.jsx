@@ -6,7 +6,7 @@ import Buttons from '../common/Buttons';
 
 const Head = () => {
   return (
-    <div className='bg-[url(./assets/images/Herobg.webp)] bg-cover bg-center bg-no-repeat sm:min-h-screen flex flex-col relative z-[1]'>
+    <div className='bg-[url(./assets/images/Herobg.webp)] bg-cover bg-center bg-no-repeat h-[810px] flex flex-col relative z-[1]'>
       <NavBar/>
       <div className="flex sm:flex-grow items-center">
 <div className="container max-w-[1164px] sm:px-3 px-6 sm:pt-[63px] pt-[56px] pb-[60px]">
