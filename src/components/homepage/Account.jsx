@@ -17,10 +17,11 @@ import visa from "../../assets/svg/visa.svg";
 import mastercard from "../../assets/svg/Mastercard.svg";
 import accountVector1 from "../../assets/svg/accountVector1.svg";
 import accountVector2 from "../../assets/svg/accountVector2.svg";
+import Buttons from "../common/Buttons";
 
 const Account = () => {
   return (
-    <div className=" pt-[98px] pb-[93.28px] relative z-[1]">
+    <div className=" pt-[98px] max-sm:pt-[54px]  relative z-[1]">
       <img
         src={accountVector1}
         alt="vector"
@@ -32,10 +33,10 @@ const Account = () => {
         className=" absolute right-0 sm:bottom-[15%] bottom-[1%] z-[-1] max-sm:w-[41px]"
       />
       <div className="container max-w-[1164px] sm:px-3 px-6 ">
-        <h2 className=" lg:text-5xl md:text-3xl text-3xxl text-darkBlue font-light leading-full capitalize text-center mb-2">
+        <h2 className=" lg:text-5xl md:text-3xl text-2xxl text-darkBlue font-light max-sm:leading-xs leading-full capitalize text-center mb-2">
           Create your <span className=" font-extrabold">account</span>
         </h2>
-        <p className=" md:text-base text-sm text-center text-lightBlack md:pb-[72px] pb-[33.7px] ">
+        <p className=" sm:text-base text-sm max-sm:leading-md text-center text-lightBlack md:pb-[72px] pb-[33.7px] ">
           Join now and protect your family's phones
         </p>
         <div className="flex flex-row flex-wrap -mx-3 items-center">
@@ -45,50 +46,50 @@ const Account = () => {
             </h3>
             <div>
               <div className="flex gap-2 items-center mb-[11px]">
-                <div className=" animate-wiggle bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" animate-wiggle  max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Location />
                 </div>
-                <p className=" md:text-base text-sm text-lightBlack font-normal">
+                <p className=" sm:text-base max-sm:leading-md text-sm text-lightBlack font-normal">
                   Unlimited location searches
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
-                <div className=" animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" max-sm:w-[38px] max-sm:h-[30px] animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Track />
                 </div>
-                <p className=" md:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   Track up to 5 phones
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
-                <div className=" animate-wiggle2 bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" max-sm:w-[38px] max-sm:h-[30px] animate-wiggle2 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Arrows />
                 </div>
-                <p className=" md:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   Multiple ways to locate a phone
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
-                <div className=" animate-wiggle3 bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" animate-wiggle3 max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Protect />
                 </div>
-                <p className=" md:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   Protect your family
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
-                <div className=" animate-wiggle bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" animate-wiggle max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Money />
                 </div>
-                <p className=" md:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   14 day money back guarantee
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-10 mb-[27.62px]">
-                <div className=" animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" animate-wiggle1 max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Private />
                 </div>
-                <p className=" md:text-base text-sm text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
                   Private & confidential
                 </p>
               </div>
@@ -98,7 +99,7 @@ const Account = () => {
                 className=" lg:max-w-[424px] max-w-[700px] w-full shadow-[0px_0px_9.5px_0px_#00000014] md:p-[18px] p-6
     "
               >
-                <p className=" md:text-base text-sm text-center text-lightBlack font-normal">
+                <p className=" max-sm:leading-md sm:text-base text-sm text-center text-lightBlack font-normal">
                   Terms: Users must be 16 or over. Pricing options are shown on
                   the payment page. Create an account to start a 24 hour trial
                   with full access to all our tools. The service can be
@@ -111,7 +112,7 @@ const Account = () => {
             </div>
           </div>
           <div className="lg:w-7/12 flex justify-center w-full px-3">
-            <div className="shadow-common-shadow ">
+            <div className="shadow-common-shadow rounded-xl">
               <div
                 className="xl:w-[679px] w-full shadow-[0px_0px_11.3px_0px_#00B5D81A]  border border-solid border-[#03045E1A] rounded-xl overflow-hidden
     "
@@ -119,7 +120,7 @@ const Account = () => {
                 <div className="flex justify-between items-center md:px-5 px-2 md:py-[15px] py-[24.5px] bg-darkBlue">
                   <div className=" flex  gap-3 items-center">
                     <Circle />
-                    <p className=" text-white md:text-3xxl text-2xl leading-sm">
+                    <p className="  text-white md:text-3xxl text-2xl leading-sm">
                       Debit/Credit Card
                     </p>
                   </div>
@@ -143,13 +144,12 @@ const Account = () => {
                 </div>
                 <div className=" md:px-6 px-2 md:pt-[30px] py-[42px] md:pb-9">
                   <form>
-                    <label
-                      htmlFor="address"
-                      className=" text-darkBlue md:text-base text-sm"
+                    <p
+                      className=" text-darkBlue sm:text-base text-sm max-sm:leading-md"
                     >
                       Your Address
-                    </label>
-                    <div className=" bg-[#FAFAFA]  mt-2 border  border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-1">
+                    </p>
+                    <div className=" bg-[#FAFAFA]   mt-2 border  border-solid border-[#03045E0F] rounded flex overflow-hidden max-sm:h-[45px] h-[52px] mb-1">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <Home />
                       </div>
@@ -157,19 +157,18 @@ const Account = () => {
                         type="text"
                         id="address"
                         placeholder="Address Line 1"
-                        className=" max-sm:!pl-5 text-darkBlue bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                        className=" max-sm:!pl-5 text-darkBlue bg-[#FAFAFA] w-full max-sm:leading-md max-sm:placeholder:leading-md p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                       />
                     </div>
-                    <p className=" text-grey md:text-base text-sm font-normal md:mb-5 mb-[18px]">
+                    <p className=" text-grey max-sm:leading-md sm:text-base text-sm font-normal md:mb-5 mb-[18px]">
                       Our enter address manually
                     </p>
-                    <label
-                      htmlFor="email"
-                      className=" text-darkBlue md:text-base text-sm "
+                    <p
+                      className=" text-darkBlue max-sm:leading-md sm:text-base text-sm "
                     >
                       Email Address
-                    </label>
-                    <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
+                    </p>
+                    <div className=" bg-[#FAFAFA] mt-2 border border-solid max-sm:h-[45px] border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <EmailIcon />
                       </div>
@@ -177,16 +176,15 @@ const Account = () => {
                         type="text"
                         id="email"
                         placeholder="Email Address"
-                        className=" text-darkBlue bg-[#FAFAFA] w-full max-sm:!pl-5 p-[14px] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                        className=" text-darkBlue  max-sm:leading-md max-sm:placeholder:leading-md bg-[#FAFAFA] w-full max-sm:!pl-5 p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                       />
                     </div>
-                    <label
-                      htmlFor="card"
-                      className=" text-darkBlue md:text-base text-sm "
+                    <p
+                      className=" text-darkBlue max-sm:leading-md sm:text-base text-sm "
                     >
                       Card Number (Visa or Mastercard)
-                    </label>
-                    <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
+                    </p>
+                    <div className=" bg-[#FAFAFA] mt-2 max-sm:h-[45px] border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <Card />
                       </div>
@@ -194,18 +192,17 @@ const Account = () => {
                         type="text"
                         id="card"
                         placeholder="Valid Card Number"
-                        className=" text-darkBlue max-sm:!pl-5 bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                        className=" text-darkBlue  max-sm:leading-md max-sm:placeholder:leading-md max-sm:!pl-5 bg-[#FAFAFA] w-full p-[14px] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                       />
                     </div>
                     <div className=" flex w-full gap-[19px] md:gap-[17px] md:mb-[46px] mb-[38px]">
                       <div className="w-1/2">
-                        <label
-                          htmlFor="date"
-                          className=" text-darkBlue md:text-base text-sm"
+                        <p
+                          className=" text-darkBlue max-sm:leading-md  sm:text-base text-sm"
                         >
                           Expiry Date
-                        </label>{" "}
-                        <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] ">
+                        </p>{" "}
+                        <div className=" bg-[#FAFAFA] mt-2 border max-sm:h-[45px] border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] ">
                           <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                             <Calender />
                           </div>
@@ -213,18 +210,17 @@ const Account = () => {
                             type="text"
                             id="date"
                             placeholder="MM/YY"
-                            className=" text-darkBlue max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base  placeholder:text-sm"
+                            className=" text-darkBlue  max-sm:leading-md max-sm:placeholder:leading-md max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base  placeholder:text-sm"
                           />
                         </div>
                       </div>
                       <div className="w-1/2">
-                        <label
-                          htmlFor="password"
-                          className=" text-darkBlue md:text-base text-sm "
+                        <p
+                          className=" text-darkBlue max-sm:leading-md sm:text-base text-sm "
                         >
                           Card Security Code
-                        </label>{" "}
-                        <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px]">
+                        </p>{" "}
+                        <div className=" bg-[#FAFAFA] mt-2 border max-sm:h-[45px] border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px]">
                           <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                             <Lock />
                           </div>
@@ -232,14 +228,12 @@ const Account = () => {
                             type="text"
                             id="password"
                             placeholder="E.x @ 0123"
-                            className=" text-darkBlue max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue md:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                            className=" text-darkBlue   max-sm:leading-md max-sm:placeholder:leading-md max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                           />
                         </div>
                       </div>
                     </div>
-                    <button className=" text-white bg-darkBlue w-full py-4 px-7 rounded md:text-base text-sm leading-lg">
-                      Buy Now (50C)
-                    </button>
+                   <Buttons text="Buy Now (50C)" name=" !w-full"/>
                   </form>
                 </div>
               </div>

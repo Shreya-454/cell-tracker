@@ -5,28 +5,28 @@ import { AdvantageData } from "../common/Helper";
 
 const Advantages = () => {
   return (
-    <div className="pt-11 pb-14 relative z-1">
+    <div className="sm:pt-[18px] pt-20 pb-[74px] sm:pb-14 relative z-[1]">
       <div className="container max-w-[1140px] mx-auto sm:px-3 px-6">
-        <h2 className="font-light text-center text-darkBlue lg:text-5xl md:text-4xl sm:text-3xl text-2xxl leading-full">
+        <h2 className="font-light text-center text-darkBlue lg:text-5xl md:text-4xl sm:text-3xl text-2xxl leading-xs sm:leading-full">
           Advantages of <span className="font-extrabold">Celltracker</span>
         </h2>
-        <p className="md:pt-2 pt-3 text-center text-lightBlack  lg:mb-[50px] mb-12 sm:max-w-[472px] max-w-[278px] mx-auto sm:text-base text-sm font-normal">
+        <p className="md:pt-2 pt-3 text-center text-lightBlack  max-sm:leading-md lg:mb-[50px] mb-[42px] sm:max-w-[472px] max-w-[278px] mx-auto sm:text-base text-sm font-normal">
           Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
           elit rhoncus vestibulum fames libero id.
         </p>
-        <div className="flex flex-wrap xl:mb-[73px] mb-[42px] flex-row -mx-3 justify-center">
+        <div className="flex flex-wrap xl:mb-11 mb-[22px] flex-row -mx-3 justify-center">
           {AdvantageData.map((obj, i) => (
             <div
               key={i}
-              className="xl:w-1/4  sm:w-1/2 w-full xl:mt-2 xl:mb-0 !mb-[18px]  px-3"
+              className="xl:w-1/4  sm:w-1/2 w-full xl:mb-0 !mb-[18px] px-3"
             >
               <div
                 className={`border border-lightGrey group xl:h-[253px] h-full xl:max-w-[271px]  max-sm:h-[184px] shadow-common-shadow duration-300 hover:border-darkBlue rounded-xl ${
-                  i % 2 !== 0 ? "sm:mt-[23px]" : ""
+                  i % 2 !== 0 ? "xl:mt-[23px]" : ""
                 }`}
               >
                 <div className="p-5  h-full hover:border-transparent xl:h-[253px] xl:max-w-[271px] duration-300 w-full rounded-[11.20px] border border-lightGrey ">
-                  <img src={obj.icons} alt="instant" />
+                  <div className={`${i % 2 ? "animate-wiggle":"animate-wiggle1"} bg-lightBlue w-[49px] h-[54px] max-sm:w-[38px] max-sm:h-[34px] flex justify-center items-center`}><img src={obj.icons} alt="instant" className=" max-sm:w-[18px]" /></div>
                   <h3 className="mt-1 text-darkBlue font-normal leading-sm sm:text-2xl text-xl">
                     {obj.title}
                   </h3>
@@ -39,7 +39,7 @@ const Advantages = () => {
           ))}
         </div>
         <div className="xl:mt-1 flex max-sm:w-full justify-center">
-          <Buttons text="Create your Account" />
+          <Buttons text="Create your Account" name="max-sm:!w-full"/>
         </div>
       </div>
       <img
