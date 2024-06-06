@@ -4,7 +4,15 @@ import simple from "../../assets/svg/simple.svg";
 import keep from "../../assets/svg/keep.svg";
 import locate from "../../assets/svg/locate.svg";
 import accurate from "../../assets/svg/accurate.svg";
-
+import compatible from "../../assets/svg/compatible.svg";
+import totally from "../../assets/svg/totally.svg";
+import cover from "../../assets/svg/cover.svg";
+import install from "../../assets/svg/install.svg";
+import provide from "../../assets/svg/provide.svg";
+import customize from "../../assets/svg/customize.svg";
+import receive from "../../assets/svg/receive.svg";
+import cellTracker from "../../assets/svg/celltracker.svg";
+import message from "../../assets/svg/message.svg";
 
 export const AdvantageData = [
   {
@@ -28,7 +36,6 @@ export const AdvantageData = [
     dec: "Keep track of your family using our tools. Know that your children or elderly relatives are safe.",
   },
 ];
-
 export const WorkData = [
   {
     icons: locate,
@@ -41,3 +48,48 @@ export const WorkData = [
     desc: "Instantly track the location of a mobile phone at any time. No apps, no downloads, Locateaphone.com works with any Android or iPhone device. Locateaphone.com uses a range of different tools to find the location of a phone. Our unique phone location walkthrough process will determine the best tools to use for each situation.",
   },
 ];
+export const UniversalData = [
+  {
+    icons: compatible,
+    heading: "compatible for every phones",
+  },
+  {
+    icons: cover,
+    heading: "Covers all networks",
+  },
+  {
+    icons: install,
+    heading: "No installation required",
+  },
+  {
+    icons: totally,
+    heading: "Totally private",
+  },
+];
+export const HowData = [
+  {
+    icons: provide,
+    heading: "Provide target phone number",
+    desc: "Enter the mobile number you want to locate in the provided field.",
+  },
+  {
+    icons: customize,
+    heading: "Customize the message",
+    desc: "Create a message that will make them approve access to their location. You can always choose the one by default. Specify sender name.",
+  },
+  {
+    icons: receive,
+    heading: "Receive their precise location",
+    desc: "Get notification as soon as GEOfinder locates the pesron on a map. View their accurate position.",
+  },
+];
+export const AnyWhereFirst=[
+  {
+    icons: cellTracker,
+    desc:"Cell Tracker runs on all phones and configurations, of all brands",
+  },
+  {
+    icons: message,
+    desc:"Customize the message you want the recipient to recieve. Or use the one suggested by default"
+  }
+]

@@ -23,8 +23,11 @@ module.exports = {
         lightBlack: "#4D4D4C",
         lightBlue: "#DDF9FF",
         skyBlue: "#00B5D8",
-        grey: "#959595",
+        grey: "#959595", 
         lightGrey: "#03045E1A",
+        lightGrey2: '#0000001A',
+        skyBlue: "#E6F8FB",
+        lightWhite:"#B3DDEE"
       },
       container: {
         center: true,
@@ -33,6 +36,9 @@ module.exports = {
       boxShadow: {
         "common-shadow": "0px 16px 25.3px 0px #00000014",
       },
+      backgroundImage: {
+        blueGradient: 'linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%);'
+      }
     },
   },
   plugins: [],
