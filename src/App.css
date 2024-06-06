@@ -2,6 +2,19 @@
 *{
   font-family: "Mukta", sans-serif;
 }
-.bg-find{
-  background-image: url("./assets/images/Newsletter.webp");
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%);
+  border-radius: 12px;
+  outline: unset;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+  border-radius: 12px;
+  background: transparent !important;
 }

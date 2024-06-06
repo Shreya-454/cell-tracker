@@ -6,12 +6,12 @@ import {
   Location1,
   LocationLightElippes,
 } from "../common/Icons";
-import NavBar from "../homepage/NavBar";
+import Nav from "./Nav";
 
 const Header = () => {
   return (
     <div className=" h-full   bg-[url(./assets/images/logInHeadbg.webp)] relative z-[1] flex flex-col bg-no-repeat bg-cover bg-center lg:bg-full min-h-[810px]">
-      <NavBar/>
+<Nav/>
     <div className="max-w-[1164px] w-full mt-[66px] lg:mt-[104px] px-6 sm:px-3 mx-auto">
       <div className="flex flex-row flex-wrap -mx-3">
         <div className="lg:w-1/2 w-full px-3 lg:mt-[71px]">
@@ -24,39 +24,39 @@ const Header = () => {
             nunc cursus. Lacus ornare aliquet condimentum elementum elementum
             nisl nibh sed. Egestas aliquam id quam nunc.
           </p>
-          <div className=" max-lg:mx-auto bg-white rounded shadow-inputNumber flex items-center justify-between ps-2.5 max-w-[448px] mt-6">
-            <div className=" flex items-center gap-[7px] ">
-              <span>
-         <Flag/>
-              </span>
-              <select
-                className="outline-none text-sm leading-[23px] font-Mukta md:leading-[26px] md:text-base"
-                name="number"
-                id="number"
-              >
-                <option value="91" className="flex items-center gap-2 ">
-                  +91
-                </option>
-                <option value="01" className="flex items-center gap-2 ">
-                  +01
-                </option>
-                <option value="92" className="flex items-center gap-2 ">
-                  +92
-                </option>
-                <option value="02" className="flex items-center gap-2 ">
-                  +02
-                </option>
-                <option value="21" className="flex items-center gap-2 ">
-                  +21
-                </option>
-              </select>
-            </div>
-            <input type="number" className="outline-none w-[35%] sm:w-1/2" />
-            <button className=" bg-dark-blue rounded font-semibold text-sm md:text-base group text-white leading-[166%] py-[13.5px] px-[22.2px] flex items-center gap-1 hover:text-dark-blue hover:bg-white duration-300 relative border-transparent border-2  hover:border-dark-blue z-[1] after:absolute after:h-full after:w-1 after:top-0 after:skew-x-12 after:blur-[3px] overflow-hidden after:left-[-20%] after:bg-dark-blue hover:after:animate-moveToX">
+          <div className=" max-lg:mx-auto bg-white rounded sm:h-[55px] h-[51px] flex items-center justify-between ps-2.5 max-w-[448px] mt-6">
+              <div className=" flex items-center gap-[7px] ">
+                <span>
+                 <Flag/>
+                </span>
+                <select
+                  className="outline-none text-sm leading-lg md:text-base"
+                  name="number"
+                  id="number"
+                >
+                  <option value="91" className="flex items-center gap-2 ">
+                    +91
+                  </option>
+                  <option value="01" className="flex items-center gap-2 ">
+                    +01
+                  </option>
+                  <option value="92" className="flex items-center gap-2 ">
+                    +92
+                  </option>
+                  <option value="02" className="flex items-center gap-2 ">
+                    +02
+                  </option>
+                  <option value="21" className="flex items-center gap-2 ">
+                    +21
+                  </option>
+                </select>
+              </div>
+              <input type="number" className="outline-none w-[35%] sm:w-1/2 bg-transparent !appearance-none " />
+              <button className=" bg-darkBlue rounded font-semibold max-w-[112px] w-full hover:border-darkBlue group text-sm sm:text-base group text-white !leading-lg  h-full px-[22.2px] flex items-center gap-1 hover:text-darkBlue hover:bg-white duration-300  border-transparent border-2">
             <Locate/>
-              Locate
-            </button>
-          </div>
+                Locate
+              </button>
+            </div>
         </div>
         <div className="lg:w-1/2 w-full px-3 max-lg:mt-[68px]">
           <div className=" relative  max-lg:max-w-[600px] max-md:max-w-[322px] mx-auto z-[1]">

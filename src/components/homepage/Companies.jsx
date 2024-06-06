@@ -31,7 +31,7 @@ border-[#03045E33]
                 <div className="max-w-[527px] lg:mb-0 mb-[42px] lg:!order-2 !order-1 w-full bg-white shadow-common-shadow relative rounded-tl-xl rounded-br-xl lg:-translate-x-6 sm:pt-[60px] md:pt-[70px] px-6 pb-[30px] sm:px-[34px] sm:pb-[34px] border border-solid border-[#03045E1A]
 ">
     <div className=' flex justify-center max-sm:-translate-y-9'>
-        <Buttons text='Most Popular' name=' sm:!text-2xl !text-xl  !px-[35px] rounded sm:absolute top-[-8%] sm:right-[30%] lg:right-[-6%]'/>
+        <Buttons text='Most Popular' name=' sm:!text-2xl !text-xl !font-normal !px-[35px] rounded sm:absolute top-[-8%] sm:right-[30%] lg:right-[-6%]'/>
         </div>
      <p className='text-darkBlue font-normal sm:text-3xxl text-2xl leading-sm mb-[18px]'>Cell Tracker <span className=' text-skyBlue font-extrabold'>Pro</span></p>
 <p className=' sm:text-base max-sm:leading-md text-sm text-lightBlack font-normal mb-3'>Perfect for teams, startups, and growing businesses.</p>

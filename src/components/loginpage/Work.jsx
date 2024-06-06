@@ -33,7 +33,7 @@ const Work = () => {
               >
                 <div className="md:p-[28px_14px_32px_13px] py-[19px] px-[9px] sm:h-[298px]  w-[267px] ">
                   <div className="flex justify-center">
-                    <div className="w-[75px] h-[70px] bg-skyBlue flex justify-center items-center">
+                    <div className="w-[75px] h-[70px] bg-light-Blue flex justify-center items-center">
                       <img src={data.icons} alt="provide" />
                     </div>
                   </div>

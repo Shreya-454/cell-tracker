@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Buttons from "../common/Buttons";
 import { NavLogo, QuickHelpIcon } from "../common/Icons";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [navShow, setnavShow] = useState(false);
@@ -29,16 +30,15 @@ const NavBar = () => {
           >
             <QuickHelpIcon /> Quick Help
           </a>
-          <a
+          <Link to="/login"
             onClick={() => setnavShow(!navShow)}
-            href="http://"
             className="content leading-[26.59px] navlinkhover text-black md:text-white flex items-center gap-[6px] max-md:pt-5 md:ml-6 md:mr-[14px]"
           >
             Log in
-          </a>
+          </Link>
           <div className="max-md:px-[30px] flex justify-center w-full">
             <Buttons
-              name=" md:!bg-white md:!text-darkBlue max-md:!mt-[115px] !w-full !max-w-[400px] "
+              name=" md:!bg-white md:!text-darkBlue max-md:!mt-[115px] !w-full max-md:hover:!text-darkBlue max-md:after:!bg-white  !max-w-[400px] after:!bg-darkBlue hover:!text-white "
               text="Create an Account"
             />
           </div>

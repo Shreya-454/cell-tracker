@@ -42,8 +42,8 @@ const Head = () => {
                   </option>
                 </select>
               </div>
-              <input type="number" className="outline-none w-[35%] sm:w-1/2 bg-transparent" />
-              <button className=" bg-darkBlue rounded font-semibold max-w-[112px] w-full text-sm md:text-base group text-white !leading-lg  h-full px-[22.2px] flex items-center gap-1 hover:text-darkBlue hover:bg-white duration-300 relative border-transparent border-2  hover:border-dark-blue z-[1] after:absolute after:h-full after:w-1 after:top-0 after:skew-x-12 after:blur-[3px] overflow-hidden after:left-[-20%] after:bg-dark-blue hover:after:animate-moveToX">
+              <input type="number" className="outline-none w-[35%] sm:w-1/2 bg-transparent !appearance-none " />
+              <button className=" bg-darkBlue rounded font-semibold max-w-[112px] w-full hover:border-darkBlue group text-sm md:text-base group text-white !leading-lg  h-full px-[22.2px] flex items-center gap-1 hover:text-darkBlue hover:bg-white duration-300 relative border-transparent border-2  hover:border-dark-blue z-[1] after:absolute after:h-full after:w-1 after:top-0 after:skew-x-12 after:blur-[3px] overflow-hidden after:left-[-20%] after:bg-dark-blue hover:after:animate-moveToX">
             <Locate/>
                 Locate
               </button>
