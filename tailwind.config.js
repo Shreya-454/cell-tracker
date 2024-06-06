@@ -35,7 +35,9 @@ module.exports = {
         "common-shadow": "0px 16px 25.3px 0px #00000014",
       },
       backgroundImage:{
-        'ellipse':'linear-gradient(7.95deg, rgba(0, 181, 216, 0.1) -3.4%, rgba(0, 0, 128, 0.1) 114.66%)'
+        'ellipse':'linear-gradient(7.95deg, rgba(0, 181, 216, 0.1) -3.4%, rgba(0, 0, 128, 0.1) 114.66%)',
+"headcard":'linear-gradient(7.95deg, rgba(0, 181, 216, 0.05) -3.4%, rgba(0, 0, 128, 0.05) 114.66%)'
+
       },
       animation:{
 wiggle: 'wiggle 5s  infinite linear',

@@ -26,7 +26,7 @@ border-[#03045E33]
                         <p className=' text-lightBlack sm:text-base max-sm:leading-md text-sm'>2 projects</p>
                     </div>
           <p className=' sm:text-base max-sm:leading-md text-sm font-normal text-lightBlack mb-[27px]'><span className=' md:text-4xxl text-3xl leading-md text-darkBlue'>$0</span> free forever</p>
-         <Buttons text="Start your free trial" name="!font-normal max-md:w-full"/>
+         <Buttons text="Start your free trial" name="!font-normal  max-md:w-full"/>
                 </div>
                 <div className="max-w-[527px] lg:mb-0 mb-[42px] lg:!order-2 !order-1 w-full bg-white shadow-common-shadow relative rounded-tl-xl rounded-br-xl lg:-translate-x-6 sm:pt-[60px] md:pt-[70px] px-6 pb-[30px] sm:px-[34px] sm:pb-[34px] border border-solid border-[#03045E1A]
 ">

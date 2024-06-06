@@ -9,7 +9,7 @@ const Head = () => {
     <div className='bg-[url(./assets/images/Herobg.webp)] bg-cover bg-center bg-no-repeat sm:min-h-screen flex flex-col relative z-[1]'>
       <NavBar/>
       <div className="flex sm:flex-grow items-center">
-<div className="container max-w-[1164px] sm:px-3 px-6 sm:pt-[63px] py-[56px]">
+<div className="container max-w-[1164px] sm:px-3 px-6 sm:pt-[63px] pt-[56px] pb-[60px]">
 <div className="flex flex-row flex-wrap -mx-3">
 <div className="md:w-1/2 w-full px-3 md:mb-0 sm:mb-10 mb-[30.5px] md:pt-20">
 <h1 className=' text-white lg:text-6xxl md:text-5xl text-3xxl leading-xs md:leading-full font-light mx-auto md:mx-0 max-w-[326px]  sm:max-w-[520px] mb-3 md:mb-2 text-center md:text-start'><span className=' font-extrabold'>Find the location</span> of any phone by its number</h1>
@@ -58,7 +58,7 @@ const Head = () => {
 <Help/>
 </div>
 <p className=' text-darkBlue sm:text-base text-sm font-normal max-w-[198px] sm:mb-[14px] mb-3'>Get help with technical, account and billing enquiries.</p>
-<Buttons text='Customer Support' name='!py-2 rounded lg:text-base text-sm !px-0 w-full '/>
+<Buttons text='Customer Support' name='!py-2 rounded lg:text-base text-sm !px-0 w-full  '/>
 
   </div>
 </div>

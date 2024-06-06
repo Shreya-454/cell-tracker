@@ -21,7 +21,7 @@ import Buttons from "../common/Buttons";
 
 const Account = () => {
   return (
-    <div className=" pt-[98px]  relative z-[1]">
+    <div className=" pt-[98px] max-sm:pt-[54px]  relative z-[1]">
       <img
         src={accountVector1}
         alt="vector"
@@ -46,7 +46,7 @@ const Account = () => {
             </h3>
             <div>
               <div className="flex gap-2 items-center mb-[11px]">
-                <div className=" animate-wiggle bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" animate-wiggle  max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Location />
                 </div>
                 <p className=" sm:text-base max-sm:leading-md text-sm text-lightBlack font-normal">
@@ -54,7 +54,7 @@ const Account = () => {
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
-                <div className=" animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" max-sm:w-[38px] max-sm:h-[30px] animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Track />
                 </div>
                 <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
@@ -62,7 +62,7 @@ const Account = () => {
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
-                <div className=" animate-wiggle2 bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" max-sm:w-[38px] max-sm:h-[30px] animate-wiggle2 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Arrows />
                 </div>
                 <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
@@ -70,7 +70,7 @@ const Account = () => {
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
-                <div className=" animate-wiggle3 bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" animate-wiggle3 max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Protect />
                 </div>
                 <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
@@ -78,7 +78,7 @@ const Account = () => {
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
-                <div className=" animate-wiggle bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" animate-wiggle max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Money />
                 </div>
                 <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
@@ -86,7 +86,7 @@ const Account = () => {
                 </p>
               </div>
               <div className="flex gap-2 items-center md:mb-10 mb-[27.62px]">
-                <div className=" animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
+                <div className=" animate-wiggle1 max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Private />
                 </div>
                 <p className=" max-sm:leading-md sm:text-base text-sm text-lightBlack font-normal">
@@ -149,7 +149,7 @@ const Account = () => {
                     >
                       Your Address
                     </p>
-                    <div className=" bg-[#FAFAFA]  mt-2 border  border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] mb-1">
+                    <div className=" bg-[#FAFAFA]   mt-2 border  border-solid border-[#03045E0F] rounded flex overflow-hidden max-sm:h-[45px] h-[52px] mb-1">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <Home />
                       </div>
@@ -168,7 +168,7 @@ const Account = () => {
                     >
                       Email Address
                     </p>
-                    <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
+                    <div className=" bg-[#FAFAFA] mt-2 border border-solid max-sm:h-[45px] border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <EmailIcon />
                       </div>
@@ -184,7 +184,7 @@ const Account = () => {
                     >
                       Card Number (Visa or Mastercard)
                     </p>
-                    <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
+                    <div className=" bg-[#FAFAFA] mt-2 max-sm:h-[45px] border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] md:mb-5 mb-[18px]">
                       <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                         <Card />
                       </div>
@@ -202,7 +202,7 @@ const Account = () => {
                         >
                           Expiry Date
                         </p>{" "}
-                        <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] ">
+                        <div className=" bg-[#FAFAFA] mt-2 border max-sm:h-[45px] border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px] ">
                           <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                             <Calender />
                           </div>
@@ -220,7 +220,7 @@ const Account = () => {
                         >
                           Card Security Code
                         </p>{" "}
-                        <div className=" bg-[#FAFAFA] mt-2 border border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px]">
+                        <div className=" bg-[#FAFAFA] mt-2 border max-sm:h-[45px] border-solid border-[#03045E0F] rounded flex overflow-hidden h-[52px]">
                           <div className=" bg-[#EDEDED] max-w-12 w-full h-full flex justify-center items-center ">
                             <Lock />
                           </div>
@@ -228,7 +228,7 @@ const Account = () => {
                             type="text"
                             id="password"
                             placeholder="E.x @ 0123"
-                            className=" text-darkBlue  max-sm:leading-md max-sm:placeholder:leading-md max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
+                            className=" text-darkBlue   max-sm:leading-md max-sm:placeholder:leading-md max-sm:!pl-5 w-full p-[14px] bg-[#FAFAFA] focus:outline-none placeholder:text-darkBlue sm:text-base text-sm md:placeholder:text-base placeholder:text-sm "
                           />
                         </div>
                       </div>
