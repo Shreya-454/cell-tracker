@@ -50,7 +50,7 @@ const Advantages = () => {
       <img
         src={rightellipse}
         alt="right"
-        className="absolute md:bottom-0 bottom-[2%] z-[-1] max-sm:w-[41px] max-lg:max-w-[64px] right-0"
+        className="absolute md:bottom-0 bottom-[4%] z-[-1] max-sm:w-[41px] max-lg:max-w-[64px] right-0"
       />
     </div>
   );

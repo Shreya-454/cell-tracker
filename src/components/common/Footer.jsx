@@ -13,7 +13,11 @@ const Footer = () => {
       <div className="container max-w-[1140px] px-3">
         <div className="flex flex-row items-center pb-[46px] flex-wrap -mx-3">
           <div className="md:w-1/3 w-full md:justify-start flex justify-center">
-            <img src={footerlogo} alt="footerlogo" />
+            <img
+              src={footerlogo}
+              alt="footerlogo"
+              className="max-sm:w-[211px] max-sm:h-[29px]"
+            />
           </div>
           <div className="md:w-1/3 max-md:my-8 max-md:pt-[6px] w-full">
             <ul className="flex gap-6 justify-center">
@@ -46,7 +50,7 @@ const Footer = () => {
           <div className="md:w-1/3 w-full gap-[18px] flex md:justify-end justify-center">
             <a
               href=""
-              className="md:w-[40px] group md:h-[40px] w-[28px] h-[28px] rounded-full border border-darkBlue flex justify-center items-center"
+              className="md:w-[40px] group md:h-[40px] hover:shadow-common-shadow2 duration-300 w-[28px] h-[28px] rounded-full border border-darkBlue flex justify-center items-center"
             >
               <img
                 src={LinKDin}
@@ -56,7 +60,7 @@ const Footer = () => {
             </a>
             <a
               href=""
-              className="md:w-[40px] group md:h-[40px] w-[28px] h-[28px] rounded-full border border-darkBlue flex justify-center items-center"
+              className="md:w-[40px] group md:h-[40px] hover:shadow-common-shadow2 duration-300 w-[28px] h-[28px] rounded-full border border-darkBlue flex justify-center items-center"
             >
               <img
                 src={Insta}
@@ -66,7 +70,7 @@ const Footer = () => {
             </a>
             <a
               href=""
-              className="md:w-[40px] group md:h-[40px] w-[28px] h-[28px] rounded-full border border-darkBlue flex justify-center items-center"
+              className="md:w-[40px] group hover:shadow-common-shadow2 duration-300 md:h-[40px] w-[28px] h-[28px] rounded-full border border-darkBlue flex justify-center items-center"
             >
               <img
                 src={FaceBook}
@@ -76,7 +80,7 @@ const Footer = () => {
             </a>
             <a
               href=""
-              className="md:w-[40px] group md:h-[40px] w-[28px] h-[28px] rounded-full border border-darkBlue flex justify-center items-center"
+              className="md:w-[40px] group md:h-[40px] hover:shadow-common-shadow2 duration-300 w-[28px] h-[28px] rounded-full border border-darkBlue flex justify-center items-center"
             >
               <img
                 src={Twitter}

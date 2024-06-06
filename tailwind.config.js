@@ -20,6 +20,8 @@ module.exports = {
         xs: "375px",
       },
       colors: {
+        blueBorder: "#03045E0F",
+        whiteBg:"FAFAFA",
         darkBlue: "#03045E",
         lightBlack: "#4D4D4C",
         lightBlue: "#DDF9FF",
@@ -35,7 +37,8 @@ module.exports = {
         padding: "1rem",
       },
       boxShadow: {
-        "common-shadow": "0px 16px 25.3px 0px #00000014",
+        "common-shadow": "0px 16px 25.3px 0 #00000014",
+        "common-shadow2": "0 8px 12.4px 0 #03045D",
       },
       backgroundImage:{
         'blueGradient': 'linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)',

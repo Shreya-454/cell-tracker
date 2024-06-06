@@ -17,7 +17,7 @@ const Universal = () => {
               key={i}
               className="lg:w-1/4 sm:w-1/2 w-full  max-lg:mb-[18px] px-2"
             >
-              <div class="md:p-[28px_14px_13px_0] 2xl:max-w-[267px] max-md:mx-auto p-[24px_12px_24px_0] h-full rounded bg-white group duration-300 border-lightGrey2 border relative z-[1] after:absolute after:inset-0 after:bg-blueGradient after:rounded after:opacity-0 after:duration-500  hover:after:opacity-100 after:z-[-1]">
+              <div className="md:p-[28px_14px_13px_0] 2xl:max-w-[267px] max-md:mx-auto p-[24px_12px_24px_0] h-full rounded bg-white group duration-300 border-lightGrey2 border relative z-[1] after:absolute after:inset-0 after:bg-blueGradient after:rounded after:opacity-0 after:duration-500  hover:after:opacity-100 after:z-[-1]">
                 <div className="bg-light-Blue group-hover:bg-white  md:w-[75px] md:h-[70px] w-[61px] h-[57px] flex justify-center items-center">
                   <img
                     src={data.icons}
