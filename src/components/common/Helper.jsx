@@ -93,3 +93,10 @@ export const AnyWhereFirst=[
     desc:"Customize the message you want the recipient to recieve. Or use the one suggested by default"
   }
 ]
+export const NavLinkData = [
+  {
+    links: "Home",
+   },
+  { links: "How It Works" },
+  { links: "Features" },
+];

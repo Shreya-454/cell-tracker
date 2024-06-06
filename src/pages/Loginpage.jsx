@@ -8,11 +8,11 @@ import Foot from '../components/loginpage/Foot'
 const Loginpage = () => {
   return (
     <div>
-      <Header/>
-      <Universal/>
+        <Header/>
+      <Universal />
       <AnyOne/>
       <Work/>
-    <Foot/>
+      <Foot/>
     </div>
   )
 }
