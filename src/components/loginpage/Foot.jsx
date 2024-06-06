@@ -3,8 +3,8 @@ import LinKDin from "../../assets/svg/linkDin.svg";
 import Insta from "../../assets/svg/insta.svg";
 import FaceBook from "../../assets/svg/faceBook.svg";
 import Twitter from "../../assets/svg/twitter.svg";
-import leftelipse from "../../assets/images/svg/leftAdvantage.svg"
-import rightelipse from "../../assets/images/svg/rightAdvantage.svg"
+import leftelipse from "../../assets/svg/leftAdvantage.svg"
+import rightelipse from "../../assets/svg/rightAdvantage.svg"
 
 const Foot = () => {
     const  date= new Date();

@@ -7,7 +7,7 @@ import Foot from '../components/loginpage/Foot'
 
 const Loginpage = () => {
   return (
-    <div>
+    <div className=' overflow-x-clip'>
         <Header/>
       <Universal />
       <AnyOne/>

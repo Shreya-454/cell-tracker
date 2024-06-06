@@ -3,7 +3,7 @@ import LinKDin from "../../assets/svg/linkDin.svg";
 import Insta from "../../assets/svg/insta.svg";
 import FaceBook from "../../assets/svg/faceBook.svg";
 import Twitter from "../../assets/svg/twitter.svg";
-import rightellipse from "../../assets/images/svg/rightAdvantage.svg";
+import rightellipse from "../../assets/svg/rightAdvantage.svg";
 
 const Footer = () => {
     const  date= new Date();

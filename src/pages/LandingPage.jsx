@@ -10,7 +10,7 @@ import Footer from '../components/homepage/Footer'
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className=' overflow-x-clip'>
       <Head />
       <Advantages />
       <HowItWorks />

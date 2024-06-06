@@ -1,5 +1,5 @@
 import findMobile from "../../assets/images/findMobile.webp"
-import leftellipse from "../../assets/images/svg/leftAdvantage.svg"
+import leftellipse from "../../assets/svg/leftAdvantage.svg"
 import Buttons from "../common/Buttons"
 
 const Find = () => {

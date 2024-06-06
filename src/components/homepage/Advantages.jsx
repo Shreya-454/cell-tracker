@@ -1,6 +1,6 @@
 import Buttons from "../common/Buttons";
-import leftellipse from "../../assets/images/svg/leftAdvantage.svg";
-import rightellipse from "../../assets/images/svg/rightAdvantage.svg";
+import leftellipse from "../../assets/svg/leftAdvantage.svg";
+import rightellipse from "../../assets/svg/rightAdvantage.svg";
 import { AdvantageData } from "../common/Helper";
 
 const Advantages = () => {

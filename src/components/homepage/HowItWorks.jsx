@@ -1,6 +1,6 @@
 import workMobile from "../../assets/images/workMobile.webp";
-import leftEllipse from "../../assets/images/svg/leftAdvantage.svg"
-import rightEllipse from "../../assets/images/svg/rightAdvantage.svg";
+import leftEllipse from "../../assets/svg/leftAdvantage.svg"
+import rightEllipse from "../../assets/svg/rightAdvantage.svg";
 import { WorkData } from "../common/Helper";
 import Buttons from "../common/Buttons";
 const HowItWorks = () => {

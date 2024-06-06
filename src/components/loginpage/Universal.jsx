@@ -1,4 +1,4 @@
-import rightellipse from "../../assets/images/svg/rightAdvantage.svg"
+import rightellipse from "../../assets/svg/rightAdvantage.svg"
 import { UniversalData } from "../common/Helper";
 const Universal = () => {
   return (
