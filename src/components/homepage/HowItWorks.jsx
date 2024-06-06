@@ -40,7 +40,7 @@ const HowItWorks = () => {
         <div className="sm:flex max-sm:flex-col xl:mt-10 md:mt-9 mt-[22px] justify-center sm:gap-[14px]">
           <Buttons name="max-sm:!mb-[18px] max-sm:!w-full" text="Create your Account" />
           <Buttons
-            name="!bg-transparent !border-darkBlue border !text-darkBlue max-sm:!w-full"
+            name="!bg-transparent !border-darkBlue border after:!bg-darkBlue  hover:!text-white !text-darkBlue max-sm:!w-full"
             text="Got more Question?"
           />
         </div>

@@ -24,8 +24,11 @@ module.exports = {
         lightBlack: "#4D4D4C",
         lightBlue: "#DDF9FF",
         skyBlue: "#00B5D8",
-        grey: "#959595",
+       'light-Blue':'#00B5D81A',
+        grey: "#959595", 
         lightGrey: "#03045E1A",
+        lightGrey2: '#0000001A',
+        lightWhite:"#B3DDEE"
       },
       container: {
         center: true,
@@ -35,8 +38,9 @@ module.exports = {
         "common-shadow": "0px 16px 25.3px 0px #00000014",
       },
       backgroundImage:{
-        'ellipse':'linear-gradient(7.95deg, rgba(0, 181, 216, 0.1) -3.4%, rgba(0, 0, 128, 0.1) 114.66%)',
-"headcard":'linear-gradient(7.95deg, rgba(0, 181, 216, 0.05) -3.4%, rgba(0, 0, 128, 0.05) 114.66%)'
+        'blueGradient': 'linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)',
+"headcard":'linear-gradient(7.95deg, rgba(0, 181, 216, 0.05) -3.4%, rgba(0, 0, 128, 0.05) 114.66%)',
+'ellipse':'linear-gradient(7.95deg, rgba(0, 181, 216, 0.1) -3.4%, rgba(0, 0, 128, 0.1) 114.66%)'
 
       },
       animation:{
