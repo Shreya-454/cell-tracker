@@ -9,7 +9,7 @@ const Work = () => {
           How it 
           <span className="font-extrabold"> works</span>
         </h2>
-        <p className="md:pt-2 pt-3 text-center text-lightBlack  lg:mb-14 md:mb-10 mb-[34px] sm:max-w-[472px] max-w-[278px] mx-auto sm:text-base text-sm font-normal">
+        <p className="md:pt-2 pt-3 text-center text-lightBlack  lg:mb-14 md:mb-10 mb-[52px] sm:max-w-[472px] max-w-[278px] mx-auto sm:text-base text-sm font-normal">
           Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
           elit rhoncus vestibulum fames libero id.
         </p>

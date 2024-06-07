@@ -58,7 +58,7 @@ const AnyOne = () => {
           <img
             src={AnyMobile}
             alt="mobile"
-            className="w-full max-md:max-h-[386px] md:w-[300px] max-md:max-w-[213px] lg:max-w-[256px] mx-auto"
+            className="w-full max-md:max-h-[386px] md:w-[300px] max-md:max-w-[213px] lg:max-w-[256px] sm:mx-auto ml-20"
           />
         </div>
         <div className="lg:w-1/3 lg:px-[2px] max-lg:mt-[18px] max-lg:order-2 max-md:mt-[18px] w-full">
@@ -100,7 +100,7 @@ const AnyOne = () => {
     <span className="absolute -top-8 md:top-1 left-0">
       <LocationelleipesLeft />
     </span>
-    <span className="absolute max-md:hidden md:-bottom-2 right-0">
+    <span className="absolute max-sm:w-[41px] top-[32%] md:-bottom-2 right-0">
       <LocationelleipesRight />
     </span>
   </section>

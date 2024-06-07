@@ -2,7 +2,7 @@ import rightellipse from "../../assets/svg/rightAdvantage.svg"
 import { UniversalData } from "../common/Helper";
 const Universal = () => {
   return (
-    <div className=" lg:pt-16 md:pt-14 pt-12  relative z-[1] mt-3">
+    <div className=" lg:pt-16 md:pt-14 pt-10  relative z-[1] mt-3">
       <div className="container max-w-[1140px] sm:px-3 px-6">
         <h2 className="font-light text-center text-darkBlue lg:text-5xl md:text-4xl sm:text-3xl text-2xxl !leading-full">
           Universal <span className="font-extrabold">Privacy</span>
@@ -42,7 +42,7 @@ const Universal = () => {
       <img
         src={rightellipse}
         alt="right"
-        className="absolute lg:top-[26%] top-[2%] z-[-1] max-sm:w-[41px] max-lg:max-w-[64px] right-0"
+        className="absolute lg:top-[26%] top-[-1%] z-[-1] max-sm:w-[41px] max-lg:max-w-[64px] right-0"
       />
     </div>
   );
