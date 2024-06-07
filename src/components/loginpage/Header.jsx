@@ -15,11 +15,11 @@ const Header = () => {
     <div className="max-w-[1164px] w-full mt-[66px] lg:mt-[104px] px-6 sm:px-3 mx-auto">
       <div className="flex flex-row flex-wrap -mx-3">
         <div className="lg:w-1/2 w-full px-3 lg:mt-[71px]" data-aos="fade-right">
-          <h1 className=" text-white max-lg:text-center text-[32px] sm:text-5xl lg:text-[52px] xl:text-[64px] leading-[37px] sm:leading-[49px] lg:leading-[64px] font-extrabold font-mukta">
+          <h1 className=" text-white max-lg:text-center text-[32px] sm:text-5xl lg:text-[52px] xl:text-[64px] !leading-[37px] sm:!leading-[49px] lg:!leading-[64px] font-extrabold font-mukta">
             Locate any phone,
             <span className=" font-light"> anywhere, anytime</span>
           </h1>
-          <p className=" font-normal max-lg:text-center text-sm sm:text-base leading-6 text-white mt-3 sm:mt-2 lg:pe-8">
+          <p className=" font-normal max-lg:text-center text-sm sm:text-base !leading-6 text-white mt-3 sm:mt-2 lg:pe-8">
             Lorem ipsum dolor sit amet consectetur. Nisl vitae arcu volutpat
             nunc cursus. Lacus ornare aliquet condimentum elementum elementum
             nisl nibh sed. Egestas aliquam id quam nunc.
@@ -31,7 +31,7 @@ const Header = () => {
                 </span>
                 <label htmlFor="number" hidden></label>
                 <select
-                  className="outline-none text-sm leading-lg md:text-base"
+                  className="outline-none text-sm !leading-lg md:text-base"
                   name="number"
                   id="number"
                 >
@@ -54,7 +54,7 @@ const Header = () => {
               </div>
               <label htmlFor="num" hidden></label>
               <input type="number" id="num" className="outline-none w-[35%] sm:w-1/2 bg-transparent !appearance-none " />
-              <button className=" bg-darkBlue rounded font-semibold max-w-[112px] w-full hover:border-darkBlue group text-sm sm:text-base group text-white !leading-lg  h-full px-[22.2px] flex items-center gap-1 hover:text-darkBlue hover:bg-white duration-300  border-transparent border-2">
+              <button className=" bg-darkBlue rounded font-semibold max-w-[112px] w-full hover:border-darkBlue group text-sm sm:text-base group text-white !!leading-lg  h-full px-[22.2px] flex items-center gap-1 hover:text-darkBlue hover:bg-white duration-300  border-transparent border-2">
             <Locate/>
                 Locate
               </button>
@@ -64,7 +64,7 @@ const Header = () => {
           <div className=" relative  max-lg:max-w-[600px] max-md:max-w-[322px] mx-auto z-[1]">
             <img
               src={DoubleMobile} data-aos="fade-left"
-              className="xl:min-w-[612px]  max-md:h-[321px] w-full xl:h-[599px]"
+              className="xl:min-w-[612px]  max-md:h-[321px] w-full xl:h-[599px] sm:!-translate-x-8"
               alt="phoneHeader"
             />
             <div data-aos="zoom-in" className=" absolute z-[2]  -bottom-4 md:bottom-[80px] right-0 xl:right-[-42px] inline-block bg-white bg-headcard rounded-xl shadow-[0px_9px_13.9px_0_#0000001C]">
@@ -73,21 +73,21 @@ const Header = () => {
                   <span>
                     <Location1 />
                   </span>
-                  <p className="text-lg lg:text-xl leading-[30px] lg:leading-[33px] font-normal text-dark-blue">
+                  <p className="text-lg lg:text-xl !leading-[30px] lg:!leading-[33px] font-normal text-dark-blue">
                     Geolocation found!
                   </p>
                 </div>
                 <a
                   href="tel:+44633427390"
-                  className="font-semibold text-xl lg:text-2xl leading-[33px] lg:leading-[39px] mt-2"
+                  className="font-semibold text-xl lg:text-2xl !leading-[33px] lg:!leading-[39px] mt-2"
                 >
                   +44 633 427 390
                 </a>
-                <p className=" max-md:mt-[6px] font-normal text-sm lg:text-base max-w-[189px] md:max-w-[216px] leading-[21px] lg:leading-6 text-black">
+                <p className=" max-md:mt-[6px] font-normal text-sm lg:text-base max-w-[189px] md:max-w-[216px] !leading-[21px] lg:!leading-6 text-black">
                   3 Succession Walk, Fish Island, London E3 2RX, United
                   Kingdom
                 </p>
-                <span className=" sm:mt-3 mt-[14px] font-light text-xs sm:text-sm leading-[18px] sm:leading-[21px] text-end block">
+                <span className=" sm:mt-3 mt-[14px] font-light text-xs sm:text-sm !leading-[18px] sm:!leading-[21px] text-end block">
                 June 02,2024 17:34
                 </span>
                 <span className="absolute z-[-1] left-0 bottom-3 lg:bottom-[3px]">

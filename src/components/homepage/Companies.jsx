@@ -5,9 +5,9 @@ import bottomlayer from "../../assets/images/companyBottomLayer.webp";
 import Buttons from "../common/Buttons";
 const Companies = () => {
   return (
-    <div className=" bg-[url(./assets/images/companiesBg.webp)] bg-center bg-cover bg-no-repeat md:py-[222px]  pt-[126px] pb-[111px] relative">
+    <div className=" bg-[url(./assets/images/companiesBg.webp)] my-[-1px] bg-center bg-cover bg-no-repeat lg:py-[222px]  pt-[126px] pb-[111px] relative">
       <div className=" container max-w-[1164px] sm:px-3 px-6">
-        <h2 className=" text-white lg:text-5xl md:text-3xl text-2xxl leading-full font-light text-center max-sm:leading-xs max-w-[664px] mx-auto lg:mb-[109px] md:mb-20 mb-[65.3px]  ">
+        <h2 className=" text-white lg:text-5xl md:text-3xl text-2xxl !leading-full font-light text-center max-sm:!leading-xs max-w-[664px] mx-auto lg:mb-[109px] md:mb-20 mb-[65.3px]  ">
           Join <span className=" font-extrabold">70,000+ companies</span> doing
           time tracking the easy way
         </h2>
@@ -20,26 +20,26 @@ border-[#03045E33]
 
 "
           >
-            <h3 className="text-darkBlue sm:text-3xxl text-2xl leading-sm mb-[18px]">
+            <h3 className="text-darkBlue sm:text-3xxl text-2xl !leading-sm mb-[18px]">
               Cell Tracker
             </h3>
-            <p className=" sm:text-base max-sm:leading-md text-sm font-normal text-lightBlack mb-3 ">
+            <p className=" sm:text-base max-sm:!leading-md text-sm font-normal text-lightBlack mb-3 ">
               Ideal for freelancers and solopreneurs
             </p>
             <div className=" flex  gap-[6px] items-center mb-[6px]">
               <Check />
-              <p className=" text-lightBlack sm:text-base max-sm:leading-md text-sm">
+              <p className=" text-lightBlack sm:text-base max-sm:!leading-md text-sm">
                 1 seat
               </p>
             </div>
             <div className=" flex  gap-[6px] items-center mb-11">
               <Check />
-              <p className=" text-lightBlack sm:text-base max-sm:leading-md text-sm">
+              <p className=" text-lightBlack sm:text-base max-sm:!leading-md text-sm">
                 2 projects
               </p>
             </div>
-            <p className=" sm:text-base max-sm:leading-md text-sm font-normal text-lightBlack mb-[27px]">
-              <span className=" md:text-4xxl text-3xl leading-md text-darkBlue">
+            <p className=" sm:text-base max-sm:!leading-md text-sm font-normal text-lightBlack mb-[27px]">
+              <span className=" md:text-4xxl text-4xl !leading-md text-darkBlue">
                 $0
               </span>{" "}
               free forever
@@ -56,41 +56,41 @@ border-[#03045E33]
             <div className=" flex justify-center max-sm:-translate-y-9">
               <Buttons
                 text="Most Popular"
-                name=" sm:!text-2xl !text-xl !font-normal !px-[35px] rounded sm:absolute top-[-8%] sm:right-[30%] lg:right-[-6%]"
+                name=" sm:!text-2xl !text-xl sm:!w-[204px] sm:!h-[68px] max-sm:!w-[157px] max-sm:!px-5 !font-normal !px-[34px] rounded sm:absolute top-[-8%] sm:right-[30%] lg:right-[-6%]"
               />
             </div>
-            <p className="text-darkBlue font-normal sm:text-3xxl text-2xl leading-sm mb-[18px]">
+            <p className="text-darkBlue font-normal sm:text-3xxl text-2xl !leading-sm mb-[18px]">
               Cell Tracker{" "}
               <span className=" text-skyBlue font-extrabold">Pro</span>
             </p>
-            <p className=" sm:text-base max-sm:leading-md text-sm text-lightBlack font-normal mb-3">
+            <p className=" sm:text-base max-sm:!leading-md text-sm text-lightBlack font-normal mb-3">
               Perfect for teams, startups, and growing businesses.
             </p>
             <div className=" flex gap-[6px] items-center">
               <Check />
-              <p className=" text-lightBlack sm:text-base max-sm:leading-md text-sm font-normal">
+              <p className=" text-lightBlack sm:text-base max-sm:!leading-md text-sm font-normal">
                 Unlimited seats
               </p>
             </div>
             <div className=" flex gap-[6px] items-center mb-11">
               <Check />
-              <p className=" text-lightBlack sm:text-base max-sm:leading-md text-sm font-normal">
+              <p className=" text-lightBlack sm:text-base max-sm:!leading-md text-sm font-normal">
                 Unlimited projects
               </p>
             </div>
             <p className=" text-base text-lightBlack font-normal mb-[27px]">
-              <span className=" md:text-4xxl text-4xl leading-md text-darkBlue">
+              <span className=" md:text-4xxl text-4xl !leading-md text-darkBlue">
                 $10.80
               </span>{" "}
               per seat/month{" "}
-              <span className=" max-sm:block">(billed annually)</span>
+              <span className=" max-sm:block !leading-sm">(billed annually)</span>
             </p>
             <div className="flex lg:flex-row flex-col gap-4 items-center">
               <Buttons
                 text="30-Day Free Trial"
                 name="!font-normal max-md:w-full"
               />
-              <p className=" sm:text-base max-sm:leading-md text-sm text-lightBlack font-normal">
+              <p className=" sm:text-base max-sm:!leading-md text-sm text-lightBlack font-normal">
                 No credit card required.
               </p>
             </div>

@@ -30,7 +30,7 @@ const Nav = () => {
                 to="/"
                 rel="noopener noreferrer"
                 onClick={() => setnavShow(!navShow)}
-                className={`leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({
+                className={`!leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({
                   isActive,
                   isPending,
                 }) =>
@@ -47,7 +47,7 @@ const Nav = () => {
                 rel="noopener noreferrer"
                 href="#work"
                 onClick={() => setnavShow(!navShow)}
-                className={`leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({
+                className={`!leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({
                   isActive,
                   isPending,
                 }) =>
@@ -62,7 +62,7 @@ const Nav = () => {
               {" "}
               <NavLink
                 onClick={() => setnavShow(!navShow)}
-                className={`leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({
+                className={`!leading-[26.59px] text-black text-base font-normal navlinkhover md:text-white flex items-center gap-[6px] ${({
                   isActive,
                   isPending,
                 }) =>

@@ -20,12 +20,12 @@ const AnyOne = () => {
     <div className="max-w-[1164px] mx-auto px-6 sm:px-3">
       <h2
         data-aos="fade-down"
-        className="lg:text-5xl text-2xxl leading-7 lg:leading-[48px] text-center text-darkBlue font-light"
+        className="lg:text-5xl text-2xxl !leading-7 lg:!leading-[48px] text-center text-darkBlue font-light"
       >
         Find Anyone Anywhere
         <span className="font-extrabold max-sm:block"> for Under $1</span>
       </h2>
-      <p className="max-w-[472px] max-sm:max-w-[275px] mx-auto font-normal text-sm md:text-base leading-[21px] md:leading-6 text-center text-lightBlack mt-2">
+      <p className="max-w-[472px] max-sm:max-w-[275px] mx-auto font-normal text-sm md:text-base !leading-[21px] md:!leading-6 text-center text-lightBlack mt-2">
         Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
         elit rhoncus vestibulum fames libero id.
       </p>
@@ -36,7 +36,7 @@ const AnyOne = () => {
               <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300  bg-light-Blue">
                 <Celltracker/>
               </div>
-              <p className="font-normal text-lg xl:text-xl leading-[29px] group-hover:text-white group-hover:opacity-70 duration-300  lg:leading-[33px]">
+              <p className="font-normal text-lg xl:text-xl !leading-[29px] group-hover:text-white group-hover:opacity-70 duration-300  lg:!leading-[33px]">
                 Cell Tracker runs on all phones and configurations, of all
                 brands
               </p>
@@ -47,7 +47,7 @@ const AnyOne = () => {
               <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300 bg-light-Blue">
                 <Chat />
               </div>
-              <p className="group-hover:text-white group-hover:opacity-70 duration-300  font-normal text-lg xl:text-xl leading-[29px] lg:leading-[33px]">
+              <p className="group-hover:text-white group-hover:opacity-70 duration-300  font-normal text-lg xl:text-xl !leading-[29px] lg:!leading-[33px]">
                 Customize the message you want the recipient to recieve. Or
                 use the one suggested by default
               </p>
@@ -58,7 +58,7 @@ const AnyOne = () => {
           <img
             src={AnyMobile}
             alt="mobile"
-            className="w-full max-h-[386px] max-w-[213px] lg:max-w-[256px] mx-auto"
+            className="w-full max-md:max-h-[386px] md:w-[300px] max-md:max-w-[213px] lg:max-w-[256px] mx-auto"
           />
         </div>
         <div className="lg:w-1/3 lg:px-[2px] max-lg:mt-[18px] max-lg:order-2 max-md:mt-[18px] w-full">
@@ -67,7 +67,7 @@ const AnyOne = () => {
               <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300 bg-light-Blue">
                 <RealTime />
               </div>
-              <p className="group-hover:text-white group-hover:opacity-70 duration-300 font-normal text-lg xl:text-xl leading-[29px] lg:leading-[33px]">
+              <p className="group-hover:text-white group-hover:opacity-70 duration-300 font-normal text-lg xl:text-xl !leading-[29px] lg:!leading-[33px]">
                 Grab real-time location as precise coordinates
               </p>
             </div>
@@ -77,7 +77,7 @@ const AnyOne = () => {
               <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300 bg-light-Blue">
                 <MobileNum />
               </div>
-              <p className="group-hover:text-white group-hover:opacity-70 duration-300  font-normal text-lg xl:text-xl leading-[29px] lg:leading-[33px]">
+              <p className="group-hover:text-white group-hover:opacity-70 duration-300  font-normal text-lg xl:text-xl !leading-[29px] lg:!leading-[33px]">
                 Any mobile number in the world can be tracked
               </p>
             </div>
@@ -90,7 +90,7 @@ const AnyOne = () => {
             <div className="md:p-[17px_19px_17px_20px] p-[14px_16px] inline-block group-hover:bg-white duration-300 bg-light-Blue">
               <UnLimited />
             </div>
-            <p className="group-hover:text-white group-hover:opacity-70 duration-300  font-normal text-lg xl:text-xl leading-[29px] lg:leading-[33px]">
+            <p className="group-hover:text-white group-hover:opacity-70 duration-300  font-normal text-lg xl:text-xl !leading-[29px] lg:!leading-[33px]">
               Send unlimited geo-location requests
             </p>
           </div>

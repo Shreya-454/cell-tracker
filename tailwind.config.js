@@ -21,7 +21,7 @@ module.exports = {
       },
       colors: {
         blueBorder: "#03045E0F",
-        whiteBg:"FAFAFA",
+        whiteBg:"#FAFAFA",
         darkBlue: "#03045E",
         lightBlack: "#4D4D4C",
         lightBlue: "#DDF9FF",

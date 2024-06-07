@@ -29,7 +29,7 @@ const NavBar = () => {
             rel="noopener noreferrer"
             onClick={() => setnavShow(!navShow)}
             href="#"
-            className="content leading-[26.59px] navlinkhover text-black md:text-white flex items-center gap-[6px]"
+            className="content !leading-[26.59px] navlinkhover text-black md:text-white flex items-center gap-[6px]"
           >
             <QuickHelpIcon /> Quick Help
           </a>
@@ -37,7 +37,7 @@ const NavBar = () => {
             to="/login"
             rel="noopener noreferrer"
             onClick={() => setnavShow(!navShow)}
-            className="content leading-[26.59px] navlinkhover text-black md:text-white flex items-center gap-[6px] max-md:pt-5 md:ml-6 md:mr-[14px]"
+            className="content !leading-[26.59px] navlinkhover text-black md:text-white flex items-center gap-[6px] max-md:pt-5 md:ml-6 md:mr-[14px]"
           >
             Log in
           </Link>
