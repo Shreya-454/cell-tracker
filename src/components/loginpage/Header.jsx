@@ -10,7 +10,7 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <div className=" h-full   bg-[url(./assets/images/logInHeadbg.webp)] max-sm:bg-[url(./assets/images/smHeadbg.webp)] relative z-[1] flex flex-col bg-no-repeat bg-cover bg-center lg:bg-full min-h-[810px]">
+    <div id="home" className=" h-full   bg-[url(./assets/images/logInHeadbg.webp)] max-sm:bg-[url(./assets/images/smHeadbg.webp)] relative z-[1] flex flex-col bg-no-repeat bg-cover bg-center lg:bg-full min-h-[810px]">
 <Nav/>
     <div className="max-w-[1164px] w-full mt-[56px] lg:mt-[104px] px-6 sm:px-3 mx-auto">
       <div className="flex flex-row flex-wrap -mx-3">

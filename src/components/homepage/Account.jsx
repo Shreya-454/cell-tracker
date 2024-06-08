@@ -21,7 +21,7 @@ import Buttons from "../common/Buttons";
 
 const Account = () => {
   return (
-    <div className=" xl:pt-[98px] max-sm:pt-[54px]  relative z-[1]">
+    <div id="contact" className=" xl:pt-[98px] max-sm:pt-[54px]  relative z-[1]">
       <img
         src={accountVector1}
         alt="vector"

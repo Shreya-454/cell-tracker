@@ -4,7 +4,7 @@ import Buttons from "../common/Buttons"
 
 const Find = () => {
   return (
-    <div className=" md:mt-[160px] mt-[273px]  lg:mt-60 pt-2 max-xl:px-6 relative overflow-x-clip">
+    <div id="find" className=" md:mt-[160px] mt-[273px]  lg:mt-60 pt-2 max-xl:px-6 relative overflow-x-clip">
       <div className="container rounded-xl bg-no-repeat lg:max-h-[391px] bg-cover bg-center max-w-[1140px] bg-[url(./assets/images/Newsletter.webp)] max-sm:px-[30.5px]">
         <div className="flex flex-row flex-wrap -mx-3 lg:max-h-[391px] ">
           <div className=" lg:w-5/12 w-full px-3 flex justify-center lg:max-h-[391px]">

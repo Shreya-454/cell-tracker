@@ -3,7 +3,7 @@ import { HowData } from "../common/Helper";
 
 const Work = () => {
   return (
-    <div className="lg:pt-16 md:pt-14 sm:pb-[45px] pb-[94px] pt-[27px]" id="work">
+    <div className="lg:pt-16 md:pt-14 sm:pb-[45px] pb-[94px] pt-[27px]" id="how">
       <div className="container max-w-[1140px] sm:px-3 px-6">
         <h2 className="font-light text-center text-darkBlue lg:text-5xl md:text-4xl sm:text-3xl text-2xxl !leading-full">
           How it 

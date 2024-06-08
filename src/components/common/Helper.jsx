@@ -13,6 +13,10 @@ import customize from "../../assets/svg/customize.svg";
 import receive from "../../assets/svg/receive.svg";
 import CellTracker from "../../assets/svg/celltracker.svg";
 import message from "../../assets/svg/message.svg";
+import insta from "../../assets/svg/insta.svg";
+import linkDin from "../../assets/svg/linkDin.svg";
+import faceBook from "../../assets/svg/faceBook.svg";
+import twitter from "../../assets/svg/twitter.svg";
 
 export const AdvantageData = [
   {
@@ -93,10 +97,50 @@ export const AnyWhereFirst=[
     desc:"Customize the message you want the recipient to recieve. Or use the one suggested by default"
   }
 ]
-export const NavLinkData = [
+export const HomeFooterLink = [
+  {
+    links: "Help",
+    path: "#home",
+  },
+  {
+    links: "Contact us",
+    path: "#contact",
+  },
+  {
+    links: "Found Phone",
+    path: "#find",
+  },
+];
+export const LoginFooterLink = [
   {
     links: "Home",
-   },
-  { links: "How It Works" },
-  { links: "Features" },
+    path: "#home",
+  },
+  {
+    links: "How It Works",
+    path: "#how",
+  },
+  {
+    links: "Features",
+    path: "#feature",
+  },
+];
+export const SocialIcons = [
+  {
+    icons: linkDin,
+    path: "#https://www.linkedin.com/login",
+  },
+  {
+    icons: insta,
+    path: "#https://www.instagram.com/accounts/login/",
+  },
+  {
+    icons: faceBook,
+    path: "#https://www.facebook.com/login/",
+  },
+
+  {
+    icons: twitter,
+    path: "#https://x.com/i/flow/login",
+  },
 ];

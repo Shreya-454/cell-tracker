@@ -7,6 +7,7 @@ import Backtop from './components/common/Backtop';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from './components/common/Footer';
 function App() {
   useEffect(() => {
     AOS.init({
