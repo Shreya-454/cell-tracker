@@ -5,7 +5,7 @@ import AnyOne from '../components/loginpage/AnyOne'
 import Work from '../components/loginpage/Work'
 import Foot from '../components/loginpage/Foot'
 
-const Loginpage = () => {
+const LoginPage = () => {
   return (
     <div className=' overflow-x-clip'>
         <Header/>
@@ -17,4 +17,4 @@ const Loginpage = () => {
   )
 }
 
-export default Loginpage
+export default LoginPage

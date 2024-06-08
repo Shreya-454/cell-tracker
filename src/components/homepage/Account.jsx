@@ -228,7 +228,7 @@ const Account = () => {
                         </div>
                       </div>
                     </div>
-                    <Buttons text="Buy Now (50C)" name=" !w-full" />
+                    <Buttons text="Buy Now (50C)" name=" !w-full !max-w-[631px]"  />
                   </form>
                 </div>
               </div>

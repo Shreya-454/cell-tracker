@@ -2,7 +2,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import LandingPage from './pages/LandingPage';
-import Loginpage from './pages/Loginpage';
+import LoginPage from './pages/LoginPage';
 import Backtop from './components/common/Backtop';
 import { useEffect } from 'react';
 import AOS from "aos";
@@ -19,7 +19,7 @@ function App() {
     <div className='max-w-[1920px] mx-auto'>
    <Routes>
    <Route path="/" element={<LandingPage/>}/>
-   <Route path="login" element={<Loginpage/>} />
+   <Route path="login" element={<LoginPage/>} />
       </Routes>
       <Backtop/>
     </div>

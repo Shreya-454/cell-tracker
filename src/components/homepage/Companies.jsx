@@ -12,7 +12,8 @@ const Companies = () => {
           time tracking the easy way
         </h2>
         <div className="flex lg:justify-center lg:flex-row flex-col lg:items-end items-center">
-          <div data-aos="fade-right"
+          <div
+            data-aos="fade-right"
             className="lg:max-w-[467px] max-w-[527px]   lg:!order-1 !order-2 bg-white px-6 py-[75.5px] md:p-[34px] rounded-lg rounded-bl-none max-lg:rounded-tr-none w-full shadow-common-shadow border-t border-l border-b
 
 border-solid
@@ -49,7 +50,8 @@ border-[#03045E33]
               name="!font-normal  max-md:w-full"
             />
           </div>
-          <div data-aos="fade-left"
+          <div
+            data-aos="fade-left"
             className="max-w-[527px] lg:mb-0 mb-[42px] lg:!order-2 !order-1 w-full bg-white shadow-common-shadow relative rounded-tl-xl rounded-br-xl lg:!-translate-x-6 sm:pt-[60px] md:pt-[70px] px-6 pb-[30px] sm:px-[34px] sm:pb-[34px] border border-solid border-lightGrey
 "
           >
@@ -83,7 +85,9 @@ border-[#03045E33]
                 $10.80
               </span>{" "}
               per seat/month{" "}
-              <span className=" max-sm:block !leading-sm">(billed annually)</span>
+              <span className=" max-sm:block !leading-sm">
+                (billed annually)
+              </span>
             </p>
             <div className="flex lg:flex-row flex-col gap-4 items-center">
               <Buttons

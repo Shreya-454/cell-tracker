@@ -8,7 +8,9 @@ module.exports = {
         xs:"116%",
         sm: "120%",
         md: "150%",
+        lg1:"160%",
         lg: "166%",
+
       },
       fontSize: {
         "3xxl": "32px",
