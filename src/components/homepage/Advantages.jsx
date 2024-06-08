@@ -25,7 +25,7 @@ const Advantages = () => {
                   i % 2 !== 0 ? "xl:mt-[23px]" : ""
                 }`}
               >
-                <div className="p-5  h-full hover:border-transparent xl:h-[253px] xl:max-w-[271px] duration-300 w-full rounded-[11.20px] border border-lightGrey ">
+                <div className="p-5  h-full hover:border-transparent xl:h-[253px] xl:max-w-[271px] !duration-300 w-full rounded-[11.20px] border border-lightGrey ">
                   <div className={`${i % 2 ? "animate-wiggle":"animate-wiggle1"} bg-lightBlue w-[49px] h-[54px] max-sm:w-[38px] max-sm:h-[34px] flex justify-center items-center`}><img src={obj.icons} alt="instant" className=" max-sm:w-[18px]" /></div>
                   <h3 className="mt-1 text-darkBlue font-normal !!leading-sm sm:text-2xl text-xl">
                     {obj.title}
