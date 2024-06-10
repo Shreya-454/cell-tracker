@@ -13,7 +13,7 @@ const Nav = () => {
   }
   return (
     <nav>
-      <div className="container max-w-[1188px] pb-[10px] pt-8 md:pt-[27px] md:pb-[21px] flex items-center justify-between">
+      <div className="container max-w-[1188px] pb-[10px] sm:px-3 px-6 pt-8 md:pt-[27px] md:pb-[21px] flex items-center justify-between">
         <a className="relative z-50 " href="http://">
           <NavLogo
             className={` !fill-white ${navShow ? "max-md:!fill-darkBlue" : ""}`}

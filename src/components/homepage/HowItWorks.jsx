@@ -1,24 +1,25 @@
 import workMobile from "../../assets/images/workMobile.webp";
-import leftEllipse from "../../assets/svg/leftAdvantage.svg"
+import leftEllipse from "../../assets/svg/leftAdvantage.svg";
 import rightEllipse from "../../assets/svg/rightAdvantage.svg";
 import { WorkData } from "../common/Helper";
 import Buttons from "../common/Buttons";
+import Heading from "../common/Heading";
+import CommonPara from "../common/CommonPara";
 const HowItWorks = () => {
   return (
     <div className=" sm:pt-12 pb-16 relative z-[1]">
       <div className="container max-w-[1140px] mx-auto sm:px-3 px-6">
-        <h2 className="font-light text-center text-darkBlue lg:text-5xl md:text-4xl max-sm:!leading-xs sm:text-3xl text-2xxl !leading-full">
-          How it <span className="font-extrabold">works</span>
-        </h2>
-        <p className="md:pt-2 pt-3 lg:mb-24 md:mb-20 mb-16 text-center text-lightBlack max-sm:!leading-md sm:max-w-[472px] max-w-[278px] mx-auto sm:text-base text-sm font-normal">
-          Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
-          elit rhoncus vestibulum fames libero id.
-        </p>
+        <Heading textLight=" How it " textBold="works" />
+        <CommonPara
+          text=" Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
+          elit rhoncus vestibulum fames libero id."
+        />
         <div className="flex flex-row flex-wrap -mx-3 items-center">
-        <div className="xl:w-1/2 lg:mt-0 mt-8 flex justify-center w-full px-3 xl:hidden max-sm:hidden">
+          <div className="xl:w-1/2 lg:mt-0 mt-8 flex justify-center w-full px-3 xl:hidden max-sm:hidden">
             {WorkData.map((obj, i) => (
               <div
-                key={i} data-aos="fade-left"
+                key={i}
+                data-aos="fade-left"
                 className={` ${
                   i === 1
                     ? "!p-5 hidden"
@@ -54,14 +55,16 @@ const HowItWorks = () => {
             <div className=" xl:w-[569px] md:w-[569px] w-[349.54px] sm:w-[500px] max-sm:top-[2%] lg:w-[500px] lg:h-[420px] h-[348.9px] sm:h-[420px] md:h-[490.95px] xl:h-[490.95px] bg-ellipse absolute animate-wiggle4 left-1/2 max-md:-translate-x-1/2 md:left-[13%] lg:left-[30%] xl:left-[-7%] z-[-1]"></div>
             <img
               src={workMobile}
-              alt="workmobile" data-aos="fade-right"
+              alt="workmobile"
+              data-aos="fade-right"
               className=" xl:min-w-[680.1px] max-sm:min-w-[401.29px] max-xl:mx-auto max-sm:h-[365.32px] xl:h-[626.55px] xl:max-w-[unset] xl:!-translate-x-28"
             />
           </div>
           <div className="xl:w-1/2 lg:mt-0 mt-8 max-xl:flex max-xl:flex-col items-center w-full px-3">
             {WorkData.map((obj, i) => (
               <div
-                key={i} data-aos="fade-left"
+                key={i}
+                data-aos="fade-left"
                 className={` ${
                   i === 1
                     ? "!p-5"

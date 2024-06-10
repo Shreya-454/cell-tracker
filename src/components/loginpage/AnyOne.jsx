@@ -1,15 +1,16 @@
-
 import React from "react";
 import {
   MobileNum,
   Celltracker,
   Chat,
   RealTime,
-  LocationelleipesLeft,
-  LocationelleipesRight,
+  LocationElleipesLeft,
+  LocationElleipesRight,
   UnLimited,
 } from "../common/Icons";
 import AnyMobile from "../../assets/images/AnyMobile.webp";
+import Heading from "../common/Heading";
+import CommonPara from "../common/CommonPara";
 
 const AnyOne = () => {
   return (
@@ -18,17 +19,11 @@ const AnyOne = () => {
       className="lg:mt-[132px] pb-[67px] mt-[79px] relative z-[1]"
     >
       <div id="feature" className="max-w-[1164px] mx-auto px-6 sm:px-3">
-        <h2
-          data-aos="fade-down"
-          className="lg:text-5xl text-2xxl !leading-7 lg:!leading-[48px] text-center text-darkBlue font-light"
-        >
-          Find Anyone Anywhere
-          <span className="font-extrabold max-sm:block"> for Under $1</span>
-        </h2>
-        <p className="max-w-[472px] max-sm:max-w-[275px] mx-auto font-normal text-sm md:text-base !leading-[21px] md:!leading-6 text-center text-lightBlack mt-2">
-          Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
-          elit rhoncus vestibulum fames libero id.
-        </p>
+        <Heading textLight="Find Anyone Anywhere " textBold=" for Under $1" />
+        <CommonPara
+          text=" Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
+          elit rhoncus vestibulum fames libero id."
+        />
         <div className="flex justify-between max-lg:flex-wrap items-center mt-[31px]  md:mt-[56px]">
           <div className="lg:w-1/3 lg:px-[2px] max-lg:order-1 max-lg:mt-12 max-md:mt-12 w-full">
             <div
@@ -113,14 +108,13 @@ const AnyOne = () => {
         </div>
       </div>
       <span className="absolute -top-8 md:top-1 left-0">
-        <LocationelleipesLeft />
+        <LocationElleipesLeft />
       </span>
       <span className="absolute max-sm:w-[41px] top-[32%] md:-bottom-2 right-0">
-        <LocationelleipesRight />
+        <LocationElleipesRight />
       </span>
     </section>
   );
-}
+};
 
-export default AnyOne
-
+export default AnyOne;

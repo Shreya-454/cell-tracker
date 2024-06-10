@@ -2,12 +2,11 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import LandingPage from './pages/LandingPage';
-import Loginpage from './pages/Loginpage';
-import Backtop from './components/common/Backtop';
+import LoginPage from './pages/LoginPage';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from './components/common/Footer';
+import BackToTop from './components/common/BackToTop';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -20,9 +19,9 @@ function App() {
     <div className='max-w-[1920px] mx-auto'>
    <Routes>
    <Route path="/" element={<LandingPage/>}/>
-   <Route path="login" element={<Loginpage/>} />
+   <Route path="login" element={<LoginPage/>} />
       </Routes>
-      <Backtop/>
+     <BackToTop/>
     </div>
   );
 }

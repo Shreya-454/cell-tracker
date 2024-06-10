@@ -11,7 +11,7 @@ import install from "../../assets/svg/install.svg";
 import provide from "../../assets/svg/provide.svg";
 import customize from "../../assets/svg/customize.svg";
 import receive from "../../assets/svg/receive.svg";
-import CellTracker from "../../assets/svg/celltracker.svg";
+import CellTracker from "../../assets/svg/cellTracker.svg";
 import message from "../../assets/svg/message.svg";
 import insta from "../../assets/svg/insta.svg";
 import linkDin from "../../assets/svg/linkDin.svg";
@@ -87,16 +87,16 @@ export const HowData = [
     desc: "Get notification as soon as GEOfinder locates the pesron on a map. View their accurate position.",
   },
 ];
-export const AnyWhereFirst=[
+export const AnyWhereFirst = [
   {
     icons: CellTracker,
-    desc:"Cell Tracker runs on all phones and configurations, of all brands",
+    desc: "Cell Tracker runs on all phones and configurations, of all brands",
   },
   {
     icons: message,
-    desc:"Customize the message you want the recipient to recieve. Or use the one suggested by default"
-  }
-]
+    desc: "Customize the message you want the recipient to recieve. Or use the one suggested by default",
+  },
+];
 export const HomeFooterLink = [
   {
     links: "Help",

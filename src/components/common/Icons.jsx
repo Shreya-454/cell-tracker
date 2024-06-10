@@ -49,7 +49,6 @@ export const Help = () => {
     </svg>
   );
 };
-
 export const Check = () => {
   return (
     <svg
@@ -69,7 +68,6 @@ export const Check = () => {
     </svg>
   );
 };
-
 export const Location = () => {
   return (
     <svg
@@ -91,7 +89,6 @@ export const Location = () => {
     </svg>
   );
 };
-
 export const Track = () => {
   return (
     <svg
@@ -121,7 +118,6 @@ export const Track = () => {
     </svg>
   );
 };
-
 export const Arrows = () => {
   return (
     <svg
@@ -143,7 +139,6 @@ export const Arrows = () => {
     </svg>
   );
 };
-
 export const Protect = () => {
   return (
     <svg
@@ -165,7 +160,6 @@ export const Protect = () => {
     </svg>
   );
 };
-
 export const Money = () => {
   return (
     <svg
@@ -195,7 +189,6 @@ export const Money = () => {
     </svg>
   );
 };
-
 export const Private = () => {
   return (
     <svg
@@ -255,7 +248,6 @@ export const Circle = () => {
     </svg>
   );
 };
-
 export const Home = () => {
   return (
     <svg
@@ -304,7 +296,6 @@ export const EmailIcon = () => {
     </svg>
   );
 };
-
 export const Card = () => {
   return (
     <svg
@@ -396,7 +387,6 @@ export const Calender = () => {
     </svg>
   );
 };
-
 export const Lock = () => {
   return (
     <svg
@@ -436,7 +426,6 @@ export const Lock = () => {
     </svg>
   );
 };
-
 export const NavLogo = (props) => {
   return (
     <svg
@@ -472,7 +461,6 @@ export const NavLogo = (props) => {
     </svg>
   );
 };
-
 export const QuickHelpIcon = () => {
   return (
     <svg
@@ -512,8 +500,7 @@ export const QuickHelpIcon = () => {
     </svg>
   );
 };
-
-export const Uparrow = () => {
+export const UpArrow = () => {
   return (
     <svg
       className="fill-white"
@@ -526,7 +513,6 @@ export const Uparrow = () => {
     </svg>
   );
 };
-
 export const Flag = () => {
   return (
     <svg
@@ -667,7 +653,6 @@ export const Flag = () => {
     </svg>
   );
 };
-
 export const Locate = () => {
   return (
     <svg
@@ -728,7 +713,7 @@ export const LocationEllipse = () => {
     </svg>
   );
 };
-export const Celltracker= () => {
+export const Celltracker = () => {
   return (
     <svg
       width="36"
@@ -779,7 +764,7 @@ export const LocateIcon = () => {
     </svg>
   );
 };
-export const LocationelleipesRight = () => {
+export const LocationElleipesRight = () => {
   return (
     <svg
       width="106"
@@ -797,7 +782,7 @@ export const LocationelleipesRight = () => {
     </svg>
   );
 };
-export const LocationelleipesLeft = () => {
+export const LocationElleipesLeft = () => {
   return (
     <svg
       width="106"

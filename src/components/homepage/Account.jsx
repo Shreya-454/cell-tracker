@@ -18,10 +18,15 @@ import mastercard from "../../assets/svg/Mastercard.svg";
 import accountVector1 from "../../assets/svg/accountVector1.svg";
 import accountVector2 from "../../assets/svg/accountVector2.svg";
 import Buttons from "../common/Buttons";
+import Heading from "../common/Heading";
+import CommonPara from "../common/CommonPara";
 
 const Account = () => {
   return (
-    <div id="contact" className=" xl:pt-[98px] max-sm:pt-[54px]  relative z-[1]">
+    <div
+      id="contact"
+      className=" xl:pt-[98px] max-sm:pt-[54px]  relative z-[1]"
+    >
       <img
         src={accountVector1}
         alt="vector"
@@ -33,19 +38,21 @@ const Account = () => {
         className=" absolute right-0 sm:bottom-[15%] bottom-[-6%] z-[-1] max-sm:w-[41px]"
       />
       <div className="container max-w-[1164px] sm:px-3 px-6 ">
-        <h2 className=" lg:text-5xl md:text-3xl text-2xxl text-darkBlue font-light max-sm:!leading-xs !leading-full capitalize text-center mb-2">
-          Create your <span className=" font-extrabold">account</span>
-        </h2>
-        <p className=" sm:text-base text-sm max-sm:!leading-md text-center text-lightBlack md:pb-[72px] pb-[33.7px] ">
-          Join now and protect your family's phones
-        </p>
+        <Heading textLight="Create your  " textBold="account" />
+        <CommonPara text="Join now and protect your family's phones" />
         <div className="flex flex-row flex-wrap -mx-3 items-center">
           <div className="lg:w-5/12 w-full px-3  mb-[42px] lg:mb-0 sm:flex flex-col items-center lg:block">
-            <h3 data-aos="fade-right" className=" md:text-3xxl sm:text-2xxl text-2xl !leading-sm text-darkBlue font-light mb-6">
+            <h3
+              data-aos="fade-right"
+              className=" md:text-3xxl sm:text-2xxl text-2xl !leading-sm text-darkBlue font-light mb-6"
+            >
               Get a <span className=" font-extrabold">24 hour</span> trial!
             </h3>
             <div>
-              <div data-aos="fade-right"  className="flex gap-2 items-centermd:mb-[11px] mb-[18px]">
+              <div
+                data-aos="fade-right"
+                className="flex gap-2 items-centermd:mb-[11px] mb-[18px]"
+              >
                 <div className=" animate-wiggle  max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Location />
                 </div>
@@ -53,7 +60,10 @@ const Account = () => {
                   Unlimited location searches
                 </p>
               </div>
-              <div data-aos="fade-right" className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
+              <div
+                data-aos="fade-right"
+                className="flex gap-2 items-center md:mb-[11px] mb-[18px]"
+              >
                 <div className=" max-sm:w-[38px] max-sm:h-[30px] animate-wiggle1 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Track />
                 </div>
@@ -61,7 +71,10 @@ const Account = () => {
                   Track up to 5 phones
                 </p>
               </div>
-              <div data-aos="fade-right" className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
+              <div
+                data-aos="fade-right"
+                className="flex gap-2 items-center md:mb-[11px] mb-[18px]"
+              >
                 <div className=" max-sm:w-[38px] max-sm:h-[30px] animate-wiggle2 bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Arrows />
                 </div>
@@ -69,7 +82,10 @@ const Account = () => {
                   Multiple ways to locate a phone
                 </p>
               </div>
-              <div data-aos="fade-right" className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
+              <div
+                data-aos="fade-right"
+                className="flex gap-2 items-center md:mb-[11px] mb-[18px]"
+              >
                 <div className=" animate-wiggle3 max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Protect />
                 </div>
@@ -77,7 +93,10 @@ const Account = () => {
                   Protect your family
                 </p>
               </div>
-              <div data-aos="fade-right" className="flex gap-2 items-center md:mb-[11px] mb-[18px]">
+              <div
+                data-aos="fade-right"
+                className="flex gap-2 items-center md:mb-[11px] mb-[18px]"
+              >
                 <div className=" animate-wiggle max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Money />
                 </div>
@@ -85,7 +104,10 @@ const Account = () => {
                   14 day money back guarantee
                 </p>
               </div>
-              <div  data-aos="fade-right"className="flex gap-2 items-center md:mb-10 mb-[27.62px]">
+              <div
+                data-aos="fade-right"
+                className="flex gap-2 items-center md:mb-10 mb-[27.62px]"
+              >
                 <div className=" animate-wiggle1 max-sm:w-[38px] max-sm:h-[30px] bg-lightBlue w-12 h-10 flex justify-center items-center">
                   <Private />
                 </div>
@@ -94,7 +116,10 @@ const Account = () => {
                 </p>
               </div>
             </div>
-            <div data-aos="fade-right" className="  flex justify-center lg:block">
+            <div
+              data-aos="fade-right"
+              className="  flex justify-center lg:block"
+            >
               <div
                 className=" lg:max-w-[424px] max-w-[700px] w-full shadow-[0px_0px_9.5px_0px_#00000014] md:p-[18px] p-6
     "
@@ -228,7 +253,10 @@ const Account = () => {
                         </div>
                       </div>
                     </div>
-                    <Buttons text="Buy Now (50C)" name=" !w-full" />
+                    <Buttons
+                      text="Buy Now (50C)"
+                      name=" !w-full !max-w-[631px]"
+                    />
                   </form>
                 </div>
               </div>

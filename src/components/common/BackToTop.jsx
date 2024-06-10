@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Uparrow } from "./Icons";
-const Backtop = () => {
+import { UpArrow } from "./Icons";
+const BackToTop = () => {
   const [visible, setVisible] = useState(false);
 
   const toggleVisible = () => {
@@ -29,10 +29,10 @@ const Backtop = () => {
           display: visible ? "flex " : "none",
         }}
       >
-        <Uparrow />
+        <UpArrow />
       </button>
     </div>
   );
 };
 
-export default Backtop;
+export default BackToTop;

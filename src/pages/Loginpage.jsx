@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../components/loginpage/Header'
-import Universal from '../components/loginpage/Universal'
-import AnyOne from '../components/loginpage/AnyOne'
-import Work from '../components/loginpage/Work'
+import Header from '../components/loginPage/Header'
+import Universal from '../components/loginPage/Universal'
+import AnyOne from '../components/loginPage/AnyOne'
+import Work from '../components/loginPage/Work'
 import Footer from '../components/common/Footer'
 import { LoginFooterLink, SocialIcons } from '../components/common/Helper'
 
-const Loginpage = () => {
+const LoginPage = () => {
   return (
     <div className=" overflow-x-clip">
       <Header />
@@ -18,4 +18,4 @@ const Loginpage = () => {
   );
 }
 
-export default Loginpage
+export default LoginPage
